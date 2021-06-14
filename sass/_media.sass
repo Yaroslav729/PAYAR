@@ -2,6 +2,20 @@
   .container
     max-width: 960px
 
+  .offer
+    &-service
+      &__if
+        font-size: 34px
+        line-height: 46px
+
+      &__margin
+        font-size: 16px
+        line-height: 22px
+
+    &-form
+      &__frame
+        margin: 10px
+
 @media (max-width: 991px)
   .container
     max-width: 710px
@@ -26,6 +40,7 @@
       width: 95%
       justify-content: space-around
       padding: 17px 0
+      margin-bottom: 19px
 
       &__link
         font-size: 16px
@@ -34,6 +49,71 @@
   .telephone
     font-size: 18px
     line-height: 25px
+
+  .fon
+    background-image: url("../img/fon-991.png")
+    background-position: 50% 0
+    background-size: cover
+
+  .offer
+    &-container
+      flex-direction: column
+
+    &-service
+      width: 620px
+      padding-bottom: 0
+
+      &__if
+        margin-bottom: 30px
+
+      &__chek
+        width: 20px
+        margin-right: 22px
+
+      &__information
+        margin-bottom: 16px
+
+    &-form
+      width: 316px
+      height: 369px
+      margin-top: 32px
+      margin-left: 49px
+      margin-bottom: 105px
+
+      &__text
+        font-size: 20px
+        line-height: 28px
+        margin-top: 28px
+        margin-bottom: 23px
+
+      &__name
+        font-size: 14px
+        line-height: 19px
+        padding: 15px 27px 15px 18px
+        margin: 0 36px 14px
+
+      &__phone
+        font-size: 14px
+        line-height: 19px
+        padding: 15px 27px 15px 18px
+        margin: 0 36px 18px
+
+      &__frame
+        width: 296.96px
+        height: 347.42px
+
+      &__understanding
+        font-size: 8px
+        line-height: 13px
+        margin: 0 auto
+        width: 225px
+
+  .button
+    &-offer
+      font-size: 14px
+      line-height: 17px
+      padding: 18px
+      margin: 0 37px 13px
 
 @media (max-width: 767px)
   .container
@@ -60,7 +140,7 @@
       width: 30px
       height: 30px
       border: none
-      background-color: white
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 24.7%, rgba(255, 255, 255, 0.81) 31.05%, #FFFFFF 45.88%, #EFF0F0 100%)
       cursor: pointer
       margin-right: 10px
       margin-top: 1px
@@ -71,12 +151,18 @@
         background-color: #333333
         border-radius: 50px
 
+  .offer
+    &-service
+      max-width: 559px
+
 @media (max-width: 576px)
   .container
     max-width: 420px
     width: 92%
   .navbar
     &-top
+      margin-bottom: 207px
+
       &__text
         font-size: 12px
         line-height: 15px
@@ -86,6 +172,62 @@
     &__img
       width: 90px
       margin-right: 20px
+
+  .fon
+    background-image: url("../img/fon-320.png")
+    background-position: 50% 0
+    background-size: cover
+
+  .offer
+    &-container
+      width: 320px
+
+    &-service
+      max-width: 320px
+
+      &__if
+        font-size: 20px
+        line-height: 32px
+        margin-bottom: 20px
+
+      &__margin
+        font-size: 12px
+        line-height: 16px
+        margin-bottom: 10px
+
+      &__information
+        margin-bottom: 6px
+        width: 287px
+
+    &-form
+      width: 288px
+      height: 344px
+      margin-top: 18px
+      margin-left: 3px
+
+
+      &__frame
+        width: 270.65px
+        height: 323.88px
+
+    &-form
+      margin-left: 10px
+
+      &__text
+        margin-top: 18px
+
+      &__name
+        padding: 15px 27px 15px 18px
+        margin: 0 22px 14px
+
+      &__phone
+        padding: 15px 27px 15px 18px
+        margin: 0 22px 19px
+
+  .button
+    &-offer
+      margin: 0 23px 13px
+      padding: 16px 18px
 
 @media (max-width: 320px)
   .container
@@ -104,6 +246,25 @@
       width: 75px
       margin-right: 26px
       padding-top: 5px
+
+  .fon
+    background-image: url("../img/fon-320.png")
+    background-position: 50% 0
+    background-size: auto
+
+  .offer
+    &-container
+      max-width: 287px
+
+    &-service
+      max-width: 287px
+
+    &-form
+      margin: 18px -3px 0
+
+
+
+
 
 
 
