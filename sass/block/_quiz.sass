@@ -1,0 +1,150 @@
+.quiz
+  &-container
+    display: flex
+
+  &-interview
+    position: relative
+    width: 719px
+    border: 1px solid #08597D
+    box-sizing: border-box
+    border-radius: 3px
+    padding: 53px 0 53px 60px
+
+    &__if
+      &-text
+        margin-bottom: 21px
+
+        &__nesting
+          margin-left: -7px
+          margin-bottom: 22px
+
+      &-too
+        margin-bottom: 32px
+
+      &-three
+        margin-bottom: 32px
+
+      &-four
+        margin-bottom: 32px
+
+      &-five
+        margin-bottom: 37px
+
+
+    &__choice
+      max-width: 530px
+      font-family: "Noto Sans", sans-serif
+      font-style: normal
+      font-weight: normal
+      font-size: 20px
+      line-height: 27px
+      color: $standart
+
+    &__phone
+      max-width: 250px
+      font-family: "Noto Sans", sans-serif
+      font-style: normal
+      font-weight: normal
+      font-size: 16px
+      line-height: 22px
+      color: $standart
+      background: #EFEFF0
+      border-radius: 3px
+      padding: 19px 50px 19px 20px
+      margin-right: 14px
+      margin-left: -6px
+
+
+    &__checkbox
+      width: 20px
+      height: 20px
+      margin-left: -8px
+      margin-right: 13px
+
+      &-yes
+        margin-right: 51px
+
+      &-color
+        width: 20px
+        height: 20px
+        margin-left: -8px
+        margin-right: 12px
+
+
+      &-white
+        margin-right: 46px
+
+      &-gray
+        margin-right: 46px
+
+    &__color
+      display: inline-block
+      font-family: "Noto Sans", sans-serif
+      font-style: normal
+      font-weight: normal
+      font-size: 20px
+      line-height: 27px
+      margin-bottom: 31px
+
+    &__window
+      &-white
+        margin-right: 55px
+        margin-left: -8px
+
+      &-gray
+        margin-right: 55px
+
+  &-keepsake
+    position: relative
+    width: 748px
+    padding: 46px 19px
+
+    &__text
+      width: 626px
+      font-family: "Montserrat", sans-serif
+      font-style: normal
+      font-weight: 600
+      font-size: 42px
+      line-height: 56px
+      color: $standart
+
+      &-information
+        color: $dark_azure
+        width: 715px
+        height: 597px
+
+  &-keepsake:after
+    content: ""
+    top: 331px
+    right: 84px
+    background-image: url("../img/block-2/keepsake.png")
+    position: absolute
+    width: 715px
+    height: 597px
+
+  &-interview:before
+    content: ""
+    position: absolute
+    bottom: -22px
+    left: 10px
+    width: 619px
+    height: 20px
+    background: rgba(171, 171, 171, 0.35)
+    filter: blur(16px)
+
+
+
+.button
+  &-quiz
+    padding: 19px 44px 19px 48px
+    max-width: 250px
+    font-family: "Noto Sans", sans-serif
+    font-style: normal
+    font-weight: 600
+    font-size: 16px
+    line-height: 22px
+    color: $standart
+    border-radius: 3px
+
+
+
