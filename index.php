@@ -169,5 +169,50 @@
       </div>
       <!-- /.container -->
     </section>
+    <section class="venture">
+      <div class="container">
+        <h2 class="venture-text">Чем <span class="venture-text__color">вы рискуете</span> покупая окна у других компаний:</h2>
+        <!-- /.venture-container__text -->
+        <div class="venture-container">
+          <div class="venture-block venture-block__lowPrice">
+            <img src="img/block-3/one.svg" class="venture-container__title-colorOne" alt="">
+            <span class="venture-container__title venture-container__title-lowPrice">Низкая цена не значит хорошее&nbsp;качество</span>
+            <ul class="venture-container__contents venture-container__contents-lowPrice">
+              <li class="venture-container__contents-list">1. Низкое качество пластика</li>
+              <li class="venture-container__contents-list">2. Толщина металла не соответствует нормам</li>
+              <li class="venture-container__contents-list">3. Качество монтажа не соответствует ГОСт</li>
+            </ul>
+            <!-- /.venture-container__contents -->
+          </div>
+          <!-- /.venture-lowPrice -->
+          <div class="venture-block venture-block__firm">
+            <img src="img/block-3/too.svg" class="venture-container__title-color" alt="">
+            <span class="venture-container__title venture-container__title-firm">Фирмы однодневки</span>
+            <ul class="venture-container__contents venture-container__contents-firm">
+              <li class="venture-container__contents-list">1. Невыполнение условий договора</li>
+              <li class="venture-container__contents-list">2. Долгие сроки изготовления</li>
+              <li class="venture-container__contents-list venture-container__contents-list__lineHeight">3. Отказ по регулировке и ремонту на время гарантии</li>
+            </ul>
+            <!-- /.venture-container__contents -->
+          </div>
+          <!-- /.venture-firm -->
+          <div class="venture-block venture-block__badWindow">
+            <img src="img/block-3/three.svg" class="venture-container__title-color" alt="">
+            <span class="venture-container__title venture-container__title-badWindow">Недолговечность окон</span>
+            <ul class="venture-container__contents venture-container__contents-badWindow">
+              <li class="venture-container__contents-list">1. Промерзание окон и стен</li>
+              <li class="venture-container__contents-list">2. Грибок и отклеившиеся обои </li>
+              <li class="venture-container__contents-list">3. Сырость в квартире или доме</li>
+            </ul>
+            <!-- /.venture-container__contents -->
+          </div>
+          <!-- /.venture-badWindow -->
+        </div>
+        <!-- /.venture-container -->
+        <p class="venture-container__direction">Ниже представленны реальные фото с плохо установленными окнами.</p>
+        <img src="img/block-3/next-bottom.svg" alt="" class="venture-container__direction-next">
+      </div>
+      <!-- /.container -->
+    </section>
   </body>
 </html>

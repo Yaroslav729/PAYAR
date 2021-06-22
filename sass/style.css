@@ -615,6 +615,7 @@ img {
 
 .quiz-container {
   display: flex;
+  margin-bottom: 115px;
 }
 .quiz-interview {
   position: relative;
@@ -730,6 +731,7 @@ img {
   position: absolute;
   width: 715px;
   height: 597px;
+  z-index: -1;
 }
 .quiz-interview:before {
   content: "";
@@ -754,6 +756,86 @@ img {
   border-radius: 3px;
 }
 
+.venture {
+  background: #EFEFF0;
+  padding: 124px 0 120px 0;
+}
+.venture-text {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 51px;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.venture-text__color {
+  color: #08597D;
+}
+.venture-block {
+  width: 422px;
+  background: #FFFFFF;
+  border: 1px solid #08597D;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 49px 25px 27px 45px;
+  margin-bottom: 47px;
+}
+.venture-container {
+  display: flex;
+  justify-content: space-between;
+}
+.venture-container__direction {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 49px;
+}
+.venture-container__direction-next {
+  display: block;
+  margin: auto;
+}
+.venture-container__contents-list {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+  margin-left: -6px;
+  margin-bottom: 8px;
+}
+.venture-container__title {
+  display: inline-block;
+  width: 250px;
+  margin-top: 15px;
+  margin-bottom: 31px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+}
+.venture-container__title-firm {
+  width: 215px;
+}
+.venture-container__title-badWindow {
+  width: 215px;
+}
+.venture-container__title-color {
+  width: 80px;
+  margin-right: 10px;
+}
+.venture-container__title-colorOne {
+  margin-right: 6px;
+}
+
 @media (max-width: 1400px) {
   .container {
     width: 1200px;
@@ -767,10 +849,15 @@ img {
   }
   .quiz-interview {
     max-width: 590px;
+    margin-bottom: 209px;
   }
   .quiz-keepsake:after {
     content: "";
     right: 24px;
+  }
+
+  .venture-block {
+    margin-right: 15px;
   }
 }
 @media (max-width: 1199px) {
@@ -811,6 +898,16 @@ img {
     height: 256px;
     top: 976px;
     left: 350px;
+  }
+
+  .venture-container {
+    flex-direction: column;
+  }
+  .venture-block {
+    margin: 0 auto 20px;
+  }
+  .venture-block:nth-last-child(1) {
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 991px) {
@@ -938,12 +1035,69 @@ img {
   }
   .quiz-interview {
     max-width: 639px;
+    margin-bottom: 197px;
   }
   .quiz-interview__if-too {
     margin-bottom: 31px;
   }
   .quiz-interview__if-four {
     margin-bottom: 30px;
+  }
+
+  .venture {
+    padding: 103px 0 120px 0;
+  }
+  .venture-text {
+    width: 520px;
+    font-size: 30px;
+    line-height: 37px;
+    margin: 0 auto 51px;
+  }
+  .venture-block {
+    width: 526px;
+    padding: 49px 25px 39px 44px;
+    margin-bottom: 20px;
+  }
+  .venture-block__firm {
+    padding: 49px 25px 20px 44px;
+  }
+  .venture-container__title {
+    margin-top: 12px;
+  }
+  .venture-container__title-firm {
+    width: 250px;
+    margin-top: 37px;
+  }
+  .venture-container__title-color {
+    margin-right: 32px;
+  }
+  .venture-container__title-colorOne {
+    padding-left: 12px;
+    margin-right: 25px;
+  }
+  .venture-container__title-badWindow {
+    width: 250px;
+    margin-top: 37px;
+  }
+  .venture-container__direction {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .venture-container__contents-list {
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 11px;
+    margin-bottom: 15px;
+  }
+  .venture-container__contents-list__lineHeight {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .venture-container__contents-firm {
+    margin-left: -15px;
+  }
+  .venture-container__contents-badWindow {
+    margin-left: -15px;
   }
 }
 @media (max-width: 767px) {
@@ -1001,6 +1155,7 @@ img {
   }
   .quiz-interview {
     width: 530px;
+    margin-bottom: 227px;
   }
   .quiz-interview__phone {
     padding: 19px 0 19px 20px;
@@ -1148,6 +1303,7 @@ img {
     width: 288px;
     padding: 30px 15px 53px 24px;
     margin-left: 10px;
+    margin-bottom: 84px;
   }
   .quiz-interview__phone {
     padding: 19px 44px 19px 20px;
@@ -1237,6 +1393,80 @@ img {
     padding: 16px 44px 19px 44px;
     margin-left: -6px;
   }
+
+  .venture {
+    padding: 72px 0 72px 0;
+  }
+  .venture-text {
+    width: 253px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+  }
+  .venture-block {
+    width: 280px;
+    padding: 27px 10px 14px 10px;
+    margin-left: 10px;
+  }
+  .venture-block__firm {
+    padding: 26px 5px 13px 18px;
+  }
+  .venture-block__badWindow {
+    padding: 26px 10px 14px 19px;
+  }
+  .venture-block:nth-last-child(1) {
+    margin-bottom: 29px;
+  }
+  .venture-container__title {
+    width: 175px;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 14px;
+    margin-bottom: 15px;
+  }
+  .venture-container__title-firm {
+    margin-top: 32px;
+    margin-bottom: 16px;
+  }
+  .venture-container__title-color {
+    width: 67px;
+    margin-right: 8px;
+  }
+  .venture-container__title-colorOne {
+    width: 69px;
+    margin-right: 4px;
+  }
+  .venture-container__title-badWindow {
+    width: 150px;
+    margin-bottom: 17px;
+  }
+  .venture-container__contents-list {
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 9px;
+    margin-bottom: 7px;
+  }
+  .venture-container__contents-list__lineHeight {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .venture-container__contents-firm {
+    margin-left: -7px;
+  }
+  .venture-container__contents-badWindow {
+    margin-left: -9px;
+  }
+  .venture-container__direction {
+    width: 187px;
+    margin: 0 47px 19px 47px;
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .venture-container__direction-next {
+    width: 30px;
+    margin: 0 0 19px 126px;
+  }
 }
 @media (max-width: 320px) {
   .container {
@@ -1278,6 +1508,14 @@ img {
   .quiz-interview {
     width: 280px;
     margin-left: 0;
+    margin-bottom: 67px;
+  }
+
+  .venture-text {
+    margin: 0 auto 30px;
+  }
+  .venture-block {
+    margin: 0 auto 20px;
   }
 }
 
