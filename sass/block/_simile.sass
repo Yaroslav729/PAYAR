@@ -1,0 +1,63 @@
+.simile
+  &__container
+    text-align: center
+    &-img
+      display: flex
+      justify-content: space-between
+
+    &-images
+      width: 209px
+      border: 1px solid #08597D
+
+      &__accessoriesVr
+        position: relative
+
+      &__accessoriesVr:after
+        content: ""
+        position: absolute
+        width: 6px
+        height: 308px
+        background-image: url("../img/block-5/vr.svg")
+        top: -304px
+        right: 208px
+        z-index: 10
+
+
+
+    &-name
+      display: flex
+      justify-content: space-between
+      font-family: "Montserrat", sans-serif
+      font-style: normal
+      font-weight: 600
+      font-size: 20px
+      line-height: 24px
+      color: $standart
+      margin-bottom: 18px
+
+      &__closeButton
+        margin-left: 13px
+
+      &__iconCheck
+        margin-right: 15px
+
+    &-title
+      font-family: "Montserrat", sans-serif
+      font-style: normal
+      font-weight: 600
+      font-size: 42px
+      line-height: 51px
+      color: $standart
+      text-transform: uppercase
+      margin-bottom: 29px
+
+      &__description
+        display: block
+        font-family: "Noto Sans", sans-serif
+        font-style: normal
+        font-weight: normal
+        font-size: 20px
+        line-height: 27px
+        color: $standart
+        margin-bottom: 70px
+        margin-left: -11px

@@ -56,7 +56,7 @@
           <div class="offer-container">
             <div class="offer-service">
               <h1 class="offer-service__if">Меняете окна в квартире?
-                Сделайте это <span class="offer-service__text-information">с помощью профессионалов!</span></h1>
+                Сделайте это <span class="offer-service__if-information">с помощью профессионалов!</span></h1>
               <div class="offer-service__information">
                 <img src="img/icon/check.svg" alt="icon: chek" class="offer-service__chek">
                 <p class="offer-service__margin">
@@ -171,10 +171,11 @@
     </section>
     <section class="venture">
       <div class="container">
-        <h2 class="venture-text">Чем <span class="venture-text__color">вы рискуете</span> покупая окна у других компаний:</h2>
+        <h2 class="venture-text">Чем <span class="venture-text__color">вы рискуете</span> покупая окна у других
+          компаний:</h2>
         <!-- /.venture-container__text -->
         <div class="venture-container">
-          <div class="venture-block venture-block__lowPrice">
+          <div class="venture-block venture__block-lowPrice">
             <img src="img/block-3/one.svg" class="venture-container__title-colorOne" alt="">
             <span class="venture-container__title venture-container__title-lowPrice">Низкая цена не значит хорошее&nbsp;качество</span>
             <ul class="venture-container__contents venture-container__contents-lowPrice">
@@ -185,23 +186,25 @@
             <!-- /.venture-container__contents -->
           </div>
           <!-- /.venture-lowPrice -->
-          <div class="venture-block venture-block__firm">
+          <div class="venture-block venture__block-firm">
             <img src="img/block-3/too.svg" class="venture-container__title-color" alt="">
             <span class="venture-container__title venture-container__title-firm">Фирмы однодневки</span>
             <ul class="venture-container__contents venture-container__contents-firm">
               <li class="venture-container__contents-list">1. Невыполнение условий договора</li>
               <li class="venture-container__contents-list">2. Долгие сроки изготовления</li>
-              <li class="venture-container__contents-list venture-container__contents-list__lineHeight">3. Отказ по регулировке и ремонту на время гарантии</li>
+              <li class="venture-container__contents-list venture-container__contents-list__lineHeight">3. Отказ по
+                регулировке и ремонту на время гарантии
+              </li>
             </ul>
             <!-- /.venture-container__contents -->
           </div>
           <!-- /.venture-firm -->
-          <div class="venture-block venture-block__badWindow">
+          <div class="venture-block venture__block-badWindow">
             <img src="img/block-3/three.svg" class="venture-container__title-color" alt="">
             <span class="venture-container__title venture-container__title-badWindow">Недолговечность окон</span>
             <ul class="venture-container__contents venture-container__contents-badWindow">
               <li class="venture-container__contents-list">1. Промерзание окон и стен</li>
-              <li class="venture-container__contents-list">2. Грибок и отклеившиеся обои </li>
+              <li class="venture-container__contents-list">2. Грибок и отклеившиеся обои</li>
               <li class="venture-container__contents-list">3. Сырость в квартире или доме</li>
             </ul>
             <!-- /.venture-container__contents -->
@@ -209,10 +212,117 @@
           <!-- /.venture-badWindow -->
         </div>
         <!-- /.venture-container -->
-        <p class="venture-container__direction">Ниже представленны реальные фото с плохо установленными окнами.</p>
-        <img src="img/block-3/next-bottom.svg" alt="" class="venture-container__direction-next">
+        <p class="venture-container-direction">Ниже представленны реальные фото с плохо установленными окнами.</p>
+        <img src="img/block-3/next-bottom.svg" alt="" class="venture-container-direction-next">
+      </div>
+      <!-- /.container -->
+    </section>
+    <section class="examples">
+      <div class="container">
+        <div class="examples-container">
+          <h3 class="examples__container-title">
+            Гарантия дилеров и быстрый расчёт -
+            <span class="examples__container-title__color">не защитят от рисков</span>
+          </h3>
+          <!-- /.examples-container__title -->
+          <div class="examples__container-badImg">
+            <div class="examples__container-badImg__crack">
+              <img src="img/block-4/crack.png" alt="" class="examples__img examples__img-crack">
+              <span class="examples__text examples__text-crack">
+            Брак в виде неровностей, трещин и плохо обработанных угловых стыков.
+          </span>
+            </div>
+            <!-- /.examples__container-badImg__crack -->
+            <div class="examples__container-badImg__freezingBlowing">
+              <img src="img/block-4/freezing.png" alt="" class="examples__img examples__img-freezing">
+              <span class="examples__text examples__text-freezing">
+            Плохая теплоизоляция, в следствии неправильной установки оконных рам.
+          </span>
+              <img src="img/block-4/blowing.png" alt="" class="examples__img examples__img-blowing">
+              <span class="examples__text examples__text-blowing">
+            Неправильная установка ПВХ окна с точки зрения термоизоляции стен.
+          </span>
+            </div>
+            <!-- /.examples__container-badImg__freezingBlowing -->
+          </div>
+          <!-- /.examples__container-badImg -->
+        </div>
+        <!-- /.examples-container -->
+      </div>
+    </section>
+    <section class="simile">
+      <div class="container">
+        <div class="simile__container">
+          <h3 class="simile__container-title">
+            Внимание!
+          </h3>
+          <span class="simile__container-title__description">
+            Почему у одних компаний цены остаются прежними, а у других вырастают?
+          </span>
+          <div class="simile__container-img">
+            <div class="simile__container-blocks simile__container-accessories">
+              <div class="simile__container-blocks-name">
+          <span class="simile__container-name">
+            <img src="img/block-5/close-button.svg" alt="Закрыть" class="simile__container-name__closeButton">
+            Фурнитура
+            <img src="img/block-5/icon-check.svg" alt="Открыть" class="simile__container-name__iconCheck">
+          </span>
+              </div>
+              <!-- /.simile__container-blocks-name-->
+              <img src="img/block-5/bad_pen.png" alt="" class="simile__container-images simile__container-images__accessoriesBad">
+              <img src="img/block-5/good_pen.png" alt="" class="simile__container-images simile__container-images__accessoriesGood">
+              <div class="simile__container-images__accessoriesVr"></div>
+            </div>
+            <!-- /.simile__container-blocks simile__container-accessories -->
+          <div class="simile__container-blocks simile__container-reinforcement">
+            <div class="simile__container-blocks-name">
+          <span class="simile__container-name">
+            <img src="img/block-5/close-button.svg" alt="Закрыть" class="simile__container-name__closeButton">
+            Армирование
+            <img src="img/block-5/icon-check.svg" alt="Открыть" class="simile__container-name__iconCheck">
+          </span>
+            </div>
+            <!-- /.simile__container-blocks-name-->
+            <img src="img/block-5/small_iron.png" alt="" class="simile__container-images simile__container-images__reinforcementBad">
+            <img src="img/block-5/big_iron.png" alt="" class="simile__container-images simile__container-images__reinforcementGood">
+            <div class="simile__container-images__accessoriesVr"></div>
+          </div>
+          <!-- /.simile__container-blocks simile__container-reinforcement-->
+          <div class="simile__container-blocks simile__container-plastic">
+            <div class="simile__container-blocks-name">
+          <span class="simile__container-name">
+            <img src="img/block-5/close-button.svg" alt="Закрыть" class="simile__container-name__closeButton">
+            Пластик
+            <img src="img/block-5/icon-check.svg" alt="Открыть" class="simile__container-name__iconCheck">
+          </span>
+            </div>
+            <!-- /.simile__container-blocks-name-->
+            <img src="img/block-5/bad_plastic.png" alt="" class="simile__container-images simile__container-images__plasticsBad">
+            <img src="img/block-5/good_plastic.png" alt="" class="simile__container-images simile__container-images__plasticGood">
+            <div class="simile__container-images__accessoriesVr"></div>
+          </div>
+          <!-- /.simile__container-blocks simile__container-plastic-->
+          </div>
+      <!-- /.simile__container-img -->
+        </div>
+        <!-- /.simile__container -->
       </div>
       <!-- /.container -->
     </section>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

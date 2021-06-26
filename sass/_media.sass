@@ -21,6 +21,29 @@
     &-block
       margin-right: 15px
 
+  .examples
+
+    &-container
+      padding: 0 10px
+
+    &__img
+      width: 580px
+
+    &__text
+      width: 580px
+
+  .simile
+    &__container
+      padding: 0 10px
+      &-images
+        width: 185px
+
+        &__accessoriesVr:after
+          content: ""
+          height: 274px
+          top: -270px
+          right: 184px
+
 @media (max-width: 1199px)
   .container
     max-width: 960px
@@ -71,6 +94,59 @@
     &-block:nth-last-child(1)
       margin-bottom: 50px
 
+  .examples
+    &__container
+
+      &-badImg
+        flex-direction: column
+        margin: auto
+
+        &__crack
+          margin-bottom: 20px
+
+    &__img
+      width: 643px
+      margin-bottom: 20px
+
+    &__text
+      width: 643px
+
+      &-crack
+        margin-top: -160px
+
+      &-blowing
+        margin-top: -160px
+
+      &-freezing
+        margin-top: -160px
+
+    &-container
+      margin-bottom: 100px
+
+  .simile
+    &__container
+      &-img
+        display: flex
+        flex-direction: column
+        width: 424px
+        margin: 0 auto 0
+
+      &-blocks
+        margin-bottom: 54px
+
+      &-title
+        &__description
+          width: 540px
+          margin: 0 auto 70px
+
+      &-images
+        width: 209px
+
+        &__accessoriesVr:after
+          content: ""
+          height: 306px
+          top: -303px
+          right: 209px
 
 @media (max-width: 991px)
   .container
@@ -196,7 +272,7 @@
 
     &-interview
       max-width: 639px
-      margin-bottom: 197px
+      margin-bottom: 198px
 
       &__if
         &-too
@@ -205,8 +281,20 @@
         &-four
           margin-bottom: 30px
 
+        &-five
+          margin-bottom: 34px
+
+        &-text
+          &__nesting
+            margin-bottom: 22px
+
+  .button
+    &-quiz
+      padding: 20px 47px 20px 46px
+
   .venture
-    padding: 103px 0 120px 0
+    padding: 103px 0 101px 0
+    margin-bottom: 100px
     &-text
       width: 520px
       font-size: 30px
@@ -218,7 +306,8 @@
       padding: 49px 25px 39px 44px
       margin-bottom: 20px
 
-      &__firm
+    &__block
+      &-firm
         padding: 49px 25px 20px 44px
 
     &-container
@@ -240,7 +329,7 @@
           width: 250px
           margin-top: 37px
 
-      &__direction
+      &-direction
         font-size: 14px
         line-height: 19px
 
@@ -261,6 +350,53 @@
         &-badWindow
           margin-left: -15px
 
+  .examples
+    &-container
+      margin-bottom: 103px
+    &__container
+      &-title
+        width: 639px
+        font-style: normal
+        font-weight: 600
+        font-size: 30px
+        line-height: 37px
+        text-align: center
+        margin-bottom: 50px
+
+    &__img
+      margin-left: 20px
+
+      &-crack
+        height: 830px
+        margin-bottom: 21px
+
+    &__text
+      width: 643px
+      margin-top: -160px
+      margin-left: 20px
+      padding: 41px 85px 41px 43px
+
+      &-freezing
+        margin-top: -160px
+
+      &-blowing
+        margin-top: -160px
+
+  .simile
+    &__container
+      &-title
+        font-size: 30px
+        line-height: 37px
+        margin-bottom: 20px
+
+        &__description
+          margin-bottom: 50px
+
+      &-blocks
+        margin-bottom: 56px
+
+      &-name
+        margin-bottom: 19px
 
 
 
@@ -369,6 +505,30 @@
     &-quiz
       padding: 19px 25px 19px 25px
 
+  .examples
+    &__container
+
+      &-badImg
+        &__crack
+          margin-right: 0
+
+      &-title
+        width: 526px
+
+    &__img
+      width: 526px
+      margin-left: 0
+
+    &__text
+      width: 526px
+      margin-left: 0
+
+  .simile
+    &__container
+      &-title
+        &__description
+          width: 424px
+
 @media (max-width: 576px)
   .container
     max-width: 420px
@@ -396,12 +556,14 @@
     margin-bottom: 70px
 
     &-container
-      width: 320px
+      width: 288px
+      margin: auto
 
     &-service
-      max-width: 320px
+      max-width: 288px
 
       &__if
+        width: 288px
         font-size: 20px
         line-height: 32px
         margin-bottom: 20px
@@ -427,7 +589,8 @@
         height: 323.88px
 
     &-form
-      margin-left: 10px
+      margin-left: 0
+      margin-right: 0
 
       &__text
         margin-top: 18px
@@ -440,14 +603,15 @@
       &__phone
         width: 82%
         padding: 15px 27px 15px 18px
-        margin: 0 22px 19px
+        margin: 0 22px 21px
 
   .button
     &-offer
       margin: 0 23px 13px
-      padding: 16px 18px
+      padding: 16px 17px
 
   .quiz
+    margin-bottom: 15px
     &-keepsake
       width: 280px
       padding: 0
@@ -457,20 +621,20 @@
         width: 294px
         font-size: 18px
         line-height: 28px
-        margin-left: -6px
+        margin-left: 0
 
     &-container
       width: 280px
-      margin-left: 0
+      margin: auto
+      padding-bottom: 0
 
     &-interview
-      width: 288px
-      padding: 30px 15px 53px 24px
-      margin-left: 10px
-      margin-bottom: 84px
+      width: 295px
+      padding: 30px 15px 50px 24px
+      margin: 0 auto 84px
 
       &__phone
-        padding: 19px 44px 19px 20px
+        padding: 19px 44px 19px 16px
         margin-bottom: 15px
 
       &__choice
@@ -556,28 +720,28 @@
 
   .button
     &-quiz
-      padding: 16px 44px 19px 44px
-      margin-left: -6px
+      padding: 16px 46px 19px 45px
+      margin-left: -9px
 
   .venture
     padding: 72px 0 72px 0
+    margin-bottom: 70px
 
     &-text
       width: 253px
       font-size: 18px
       line-height: 28px
       margin-bottom: 30px
-      margin-left: 25px
 
     &-block
       width: 280px
       padding: 27px 10px 14px 10px
-      margin-left: 10px
 
-      &__firm
+    &__block
+      &-firm
         padding: 26px 5px 13px 18px
 
-      &__badWindow
+      &-badWindow
         padding: 26px 10px 14px 19px
 
     &-block:nth-last-child(1)
@@ -625,14 +789,100 @@
         &-badWindow
           margin-left: -9px
 
-      &__direction
+      &-direction
         width: 187px
-        margin: 0 47px 19px 47px
+        margin: 0 auto 19px
         font-size: 10px
         line-height: 14px
         &-next
           width: 30px
-          margin: 0 0 19px 126px
+          margin: 0 auto 19px
+
+  .examples
+    &-container
+      padding: 0
+      margin-bottom: 69px
+    &__container
+
+      &-badImg
+        width: 282px
+        margin: auto
+
+      &-title
+        width: 291px
+        font-size: 18px
+        line-height: 28px
+        margin: 0 auto 30px
+
+    &__text
+      width: 280px
+      font-size: 12px
+      line-height: 17px
+      padding: 12px 13px 12px 15px
+      margin-top: -79px
+
+      &-freezing
+        margin-top: -79px
+
+      &-blowing
+        margin-top: -78px
+
+
+    &__img
+      &-crack
+        width: 280px
+        height: 362px
+
+      &-freezing
+        width: 280px
+        height: 177px
+
+      &-blowing
+        width: 280px
+        height: 176px
+
+  .simile
+    &__container
+      padding: 0
+
+      &-blocks
+        margin-bottom: 34px
+
+      &-img
+        width: 284px
+      &-images
+        width: 138px
+
+        &__accessoriesVr:after
+          width: 6px
+          height: 203px
+          top: -200px
+          right: 139px
+
+      &-name
+        width: 284px
+        font-size: 12px
+        line-height: 15px
+        margin-bottom: 14px
+
+        &__closeButton
+          width: 14px
+          height: 14px
+
+        &__iconCheck
+          width: 14px
+          height: 14px
+
+      &-title
+        font-size: 18px
+        line-height: 22px
+
+        &__description
+          width: 280px
+          font-size: 12px
+          line-height: 16px
+          margin-bottom: 84px
+
 
 
 
@@ -672,17 +922,31 @@
       margin: 18px -3px 0
 
   .quiz
+    margin-bottom: 0
     &-interview
       width: 280px
       margin-left: 0
-      margin-bottom: 67px
+      margin-bottom: 70px
+
+    &-keepsake
+      &__text
+        margin-left: -7px
 
   .venture
+    padding: 72px 0 52px 0
     &-text
       margin: 0 auto 30px
 
     &-block
       margin: 0 auto 20px
+
+  .examples
+    &__container
+      &-title
+        margin-left: -5px
+
+
+
 
 
 
