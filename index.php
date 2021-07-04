@@ -309,6 +309,23 @@
       </div>
       <!-- /.container -->
     </section>
+    <section class="search">
+      <div class="search__background">
+      <div class="container">
+        <div class="search__description">
+        <h3 class="search__title">
+          Ищете, где приобрести <span class="search__title-object">недорогие и надежные</span> окна?
+        </h3>
+        <p class="search__description-text">Предлагаем продукцию от производителя <span class="search__description-text__object">с&nbsp;гарантией на 5 лет!</span></p>
+        <p class="search__description-text search__description-text__next">Мы проследим,чтобы окна были <span class="search__description-text__object">установлены грамотно и служили десятки лет.</span></p>
+        <p class="search__description-text search__description-text__next search__description-text__next-lineThree">Гарантируем <span class="search__description-text__object">качество и индивидуальный подход.</span></p>
+        </div>
+        <!-- /.search__description -->
+      </div>
+      <!-- /.container -->
+      </div>
+      <!-- /.search__background -->
+    </section>
   </body>
 </html>
 

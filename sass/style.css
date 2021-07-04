@@ -907,8 +907,14 @@ img {
   padding: 42px 85px 42px 43px;
 }
 
+.simile {
+  background: #EFEFF0;
+  padding: 262px 0 1px 0;
+  margin-top: -262px;
+}
 .simile__container {
   text-align: center;
+  margin-bottom: 125px;
 }
 .simile__container-img {
   display: flex;
@@ -970,6 +976,48 @@ img {
   margin-left: -11px;
 }
 
+.search__background {
+  background-image: url("../img/block-6/imgGirl.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 800px;
+}
+.search__title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 56px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 40px;
+}
+.search__title-object {
+  color: #08597D;
+}
+.search__description {
+  width: 700px;
+  float: right;
+  padding: 207px 0 10px 17px;
+}
+.search__description-text {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.search__description-text__object {
+  font-weight: bold;
+}
+.search__description-text__next {
+  padding: 0 90px;
+}
+
 @media (max-width: 1400px) {
   .container {
     width: 1200px;
@@ -1015,6 +1063,14 @@ img {
     height: 274px;
     top: -270px;
     right: 184px;
+  }
+
+  .search__background {
+    background-image: url("../img/block-6/imgGirl_1400.png");
+    height: 584px;
+  }
+  .search__description {
+    padding-top: 150px;
   }
 }
 @media (max-width: 1199px) {
@@ -1094,6 +1150,10 @@ img {
     margin-bottom: 100px;
   }
 
+  .simile {
+    padding: 243px 0 1px 0;
+    margin-top: -243px;
+  }
   .simile__container-img {
     display: flex;
     flex-direction: column;
@@ -1115,6 +1175,28 @@ img {
     height: 306px;
     top: -303px;
     right: 209px;
+  }
+
+  .search__background {
+    background-image: url("../img/block-6/imgGirl_1200.png");
+    height: 501px;
+  }
+  .search__description {
+    width: 410px;
+    padding-top: 85px;
+  }
+  .search__description-text {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+  }
+  .search__description-text__next {
+    padding: 0;
+  }
+  .search__title {
+    text-align: left;
+    font-size: 30px;
+    line-height: 37px;
   }
 }
 @media (max-width: 991px) {
@@ -1350,6 +1432,13 @@ img {
     margin-top: -160px;
   }
 
+  .simile {
+    padding: 240px 0 1px 0;
+    margin-top: -240px;
+  }
+  .simile__container {
+    margin-bottom: 47px;
+  }
   .simile__container-title {
     font-size: 30px;
     line-height: 37px;
@@ -1363,6 +1452,20 @@ img {
   }
   .simile__container-name {
     margin-bottom: 19px;
+  }
+
+  .search__background {
+    background-image: url("../img/block-6/smalGirl.png");
+    height: 452px;
+  }
+  .search__description {
+    padding: 60px 0 0 22px;
+  }
+  .search__description-text {
+    margin-bottom: 16px;
+  }
+  .search__title {
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 767px) {
@@ -1509,8 +1612,8 @@ img {
 
   .fon {
     background-image: url("../img/fon-320.png");
-    background-position: 50% 0;
     background-size: cover;
+    background-position: 50% 0;
   }
 
   .offer {
@@ -1797,8 +1900,13 @@ img {
     height: 176px;
   }
 
+  .simile {
+    padding: 127px 0 0 0;
+    margin-top: -127px;
+  }
   .simile__container {
-    padding: 0;
+    padding: 0 0 38px 0;
+    margin-bottom: 137px;
   }
   .simile__container-blocks {
     margin-bottom: 34px;
@@ -1838,6 +1946,44 @@ img {
     font-size: 12px;
     line-height: 16px;
     margin-bottom: 84px;
+  }
+
+  .search__background {
+    background-image: url("../img/block-6/smalGirl_577.png");
+    background-size: cover;
+    height: 279px;
+    margin: auto;
+  }
+  .search__title {
+    width: 291px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 0 84px 7px;
+    padding-top: 10px;
+  }
+  .search__description {
+    width: 287px;
+    padding: 0;
+    margin: -60px auto 0;
+    float: none;
+  }
+  .search__description-text {
+    width: 239px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    margin-left: 33px;
+    margin-bottom: 12px;
+  }
+  .search__description-text__next {
+    width: 287px;
+    margin-right: 2px;
+    margin-left: 9px;
+  }
+  .search__description-text__next-lineThree {
+    width: 250px;
+    margin-left: 27px;
   }
 }
 @media (max-width: 320px) {
@@ -1901,6 +2047,29 @@ img {
 
   .examples__container-title {
     margin-left: -5px;
+  }
+
+  .simile {
+    padding: 129px 0 0 0;
+    margin-top: -129px;
+  }
+
+  .search {
+    position: relative;
+  }
+  .search__background {
+    width: 320px;
+    background-image: url("../img/block-6/smalGirl_320.png");
+    position: absolute;
+    top: -39px;
+    left: 0;
+  }
+  .search__description {
+    width: 287px;
+    padding: 0;
+    margin-right: 0;
+    margin-top: -37px;
+    margin-left: -12px;
   }
 }
 
