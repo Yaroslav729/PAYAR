@@ -78,23 +78,23 @@
               </div>
             </div>
             <!-- /.offer-serves -->
-            <div class="offer-form">
-              <div class="offer-form__frame">
-                <div class="offer-form__border">
-                  <h3 class="offer-form__text">Заполните форму</h3>
-                  <input type="text" class="offer-form__name" placeholder="Ваше Имя">
-                  <input type="tel" class="offer-form__phone" placeholder="Ваш телефон">
+            <div class="form offer__form">
+              <div class="form__frame offer__form-frame">
+                <div class="form__border offer__form-border">
+                  <h3 class="form__text offer__form-text">Заполните форму</h3>
+                  <input type="text" class="form__name offer__form-name" placeholder="Ваше Имя">
+                  <input type="tel" class="form__phone offer__form-phone" placeholder="Ваш телефон">
                   <button class="button button-offer">Получить консультацию</button>
-                  <p class="offer-form__understanding">
+                  <p class="form__understanding">
                     Нажимая на кнопку, вы даете согласие на обработку&nbsp;персональных данных и соглашаетесь
-                    c&nbsp;<span class="offer-form__understanding-text">политикой&nbsp;конфиденциальности.</span>
+                    c&nbsp;<span class="form__understanding-text">политикой&nbsp;конфиденциальности.</span>
                   </p>
                 </div>
-                <!-- /.offer-form__border -->
+                <!-- /.form__border -->
               </div>
-              <!-- /.offer-form__frame -->
+              <!-- /.form__frame -->
             </div>
-            <!-- /.offer-form -->
+            <!-- /.form -->
           </div>
           <!-- /.offer-container -->
         </div>
@@ -321,6 +321,23 @@
         <p class="search__description-text search__description-text__next search__description-text__next-lineThree">Гарантируем <span class="search__description-text__object">качество и индивидуальный подход.</span></p>
         </div>
         <!-- /.search__description -->
+        <div class="form search__form">
+          <div class="form__frame search__form-frame">
+            <div class="form__border search__form-border">
+              <h3 class="form__text search__form-text">Оставьте заявку на замер прямо сейчас!</h3> <h3 class="search__form-text-mb">Заполните форму</h3>
+              <input type="text" class="form__name search__form-name" placeholder="Ваше Имя">
+              <input type="tel" class="form__phone search__form-phone" placeholder="Ваш телефон">
+              <button class="button search__button">Получить консультацию</button>
+              <p class="form__understanding search__form-understanding">
+                Нажимая на кнопку, вы даете согласие на обработку&nbsp;персональных данных и соглашаетесь
+                c&nbsp;<span class="form__understanding-text">политикой&nbsp;конфиденциальности.</span>
+              </p>
+            </div>
+            <!-- /.form__border -->
+          </div>
+          <!-- /.form__frame -->
+        </div>
+        <!-- /.form__search -->
       </div>
       <!-- /.container -->
       </div>

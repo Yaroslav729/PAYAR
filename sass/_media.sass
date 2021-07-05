@@ -69,15 +69,14 @@
         font-size: 16px
         line-height: 22px
 
-    &-form
-      &__frame
-        margin: 10px
+    &__form-frame
+      margin: 10px
 
-      &__name
-        width: 81%
+    &__form-name
+      width: 81%
 
-      &__phone
-        width: 81%
+    &__form-phone
+      width: 81%
 
   .quiz
     &-container
@@ -182,6 +181,50 @@
       font-size: 30px
       line-height: 37px
 
+    &__button
+      width: 230px
+      font-family: "Montserrat", sans-serif
+      font-style: normal
+      font-weight: 600
+      font-size: 14px
+      line-height: 17px
+      padding: 17px 15px 15px 10px
+
+    &__form
+      width: 760px
+      height: 235px
+      margin: auto
+      bottom: -199px
+
+    &__form-frame
+      width: 745px
+      height: 215px
+
+    &__form-text
+      font-size: 20px
+      line-height: 28px
+      margin-bottom: 32px
+
+    &__form-name
+      width: 218px
+      font-size: 14px
+      line-height: 19px
+      padding: 15px 17px 15px 17px
+      margin-left: 26px
+      margin-right: 10px
+
+    &__form-phone
+      width: 218px
+      font-size: 14px
+      line-height: 19px
+      padding: 15px 17px 15px 17px
+      margin-right: 10px
+
+    &__form-understanding
+      font-size: 8px
+      line-height: 13px
+      margin-top: 21px
+
 @media (max-width: 991px)
   .container
     max-width: 710px
@@ -239,42 +282,42 @@
       &__information
         margin-bottom: 16px
 
-    &-form
+    &__form
       width: 316px
       height: 369px
       margin-top: 32px
       margin-left: 49px
       margin-bottom: 105px
 
-      &__text
-        font-size: 20px
-        line-height: 28px
-        margin-top: 28px
-        margin-bottom: 23px
+    &__form-text
+      font-size: 20px
+      line-height: 28px
+      margin-top: 28px
+      margin-bottom: 23px
 
-      &__name
-        width: 75%
-        font-size: 14px
-        line-height: 19px
-        padding: 15px 27px 15px 18px
-        margin: 0 36px 14px
+    &__form-name
+      width: 75%
+      font-size: 14px
+      line-height: 19px
+      padding: 15px 27px 15px 18px
+      margin: 0 36px 14px
 
-      &__phone
-        width: 75%
-        font-size: 14px
-        line-height: 19px
-        padding: 15px 27px 15px 18px
-        margin: 0 36px 18px
+    &__form-phone
+      width: 75%
+      font-size: 14px
+      line-height: 19px
+      padding: 15px 27px 15px 18px
+      margin: 0 36px 18px
 
-      &__frame
-        width: 296.96px
-        height: 347.42px
+    &__form-frame
+      width: 296.96px
+      height: 347.42px
 
-      &__understanding
-        font-size: 8px
-        line-height: 13px
-        margin: 0 auto
-        width: 225px
+    &__understanding
+      font-size: 8px
+      line-height: 13px
+      margin: 0 auto
+      width: 225px
 
   .button
     &-offer
@@ -453,6 +496,11 @@
     &__title
       margin-bottom: 20px
 
+  .form-rectangle-mb
+    width: 360px
+    height: 135px
+    margin: auto
+
 
 @media (max-width: 767px)
   .container
@@ -582,6 +630,35 @@
         &__description
           width: 424px
 
+  .search
+    &__form
+      width: 526px
+      height: 200px
+      bottom: -175px
+
+    &__form-frame
+      width: 506px
+      height: 180px
+
+    &__form-text
+      margin-bottom: 20px
+      margin-top: 20px
+
+    &__form-name
+      width: 150px
+      margin-left: 10px
+
+    &__form-phone
+      width: 150px
+
+    &__form-understanding
+      margin-top: 10px
+
+    &__button
+      width: 150px
+      padding: 17px 0 14px 0
+      font-size: 11px
+
 @media (max-width: 576px)
   .container
     max-width: 420px
@@ -630,33 +707,28 @@
         margin-bottom: 6px
         width: 287px
 
-    &-form
-      width: 288px
-      height: 344px
+  .form
+    width: 288px
+    height: 344px
+    margin: 18px auto 0
+
+
+    &__frame
+      width: 270.65px
+      height: 323.88px
+
+    &__text
       margin-top: 18px
-      margin-left: 3px
 
+    &__name
+      width: 82%
+      padding: 15px 27px 15px 18px
+      margin: 0 22px 14px
 
-      &__frame
-        width: 270.65px
-        height: 323.88px
-
-    &-form
-      margin-left: 0
-      margin-right: 0
-
-      &__text
-        margin-top: 18px
-
-      &__name
-        width: 82%
-        padding: 15px 27px 15px 18px
-        margin: 0 22px 14px
-
-      &__phone
-        width: 82%
-        padding: 15px 27px 15px 18px
-        margin: 0 22px 21px
+    &__phone
+      width: 82%
+      padding: 15px 27px 15px 18px
+      margin: 0 22px 21px
 
   .button
     &-offer
@@ -944,11 +1016,15 @@
           margin-bottom: 84px
 
   .search
+    position: relative
     &__background
+      width: 100%
       background-image: url("../img/block-6/smalGirl_577.png")
       background-size: cover
       height: 279px
       margin: auto
+      position: absolute
+      top: -39px
 
     &__title
       width: 291px
@@ -980,6 +1056,81 @@
           &-lineThree
             width: 250px
             margin-left: 27px
+
+    &__form
+      width: 288px
+      height: 344px
+      margin: 18px auto 0
+      bottom: -300px
+      border-top-left-radius: 150px 25px
+      border-top-right-radius: 150px 25px
+      border-bottom-right-radius: 3px
+      border-bottom-left-radius: 3px
+
+    &__button
+      width: 82%
+      font-family: "Montserrat", sans-serif
+      font-style: normal
+      font-weight: 600
+      font-size: 14px
+      line-height: 17px
+      margin: 0 23px 13px
+      padding: 16px 17px
+
+    &__form-text
+      display: none
+
+    &__form-text-mb
+      display: block
+      font-family: "Montserrat", sans-serif
+      font-style: normal
+      font-weight: 600
+      font-size: 20px
+      line-height: 28px
+      text-align: center
+      margin-bottom: 22px
+      color: #FFFFFF
+      margin-top: 18px
+
+
+    &__form-frame
+      width: 270.65px
+      height: 323.88px
+      border-top-left-radius: 150px 25px
+      border-top-right-radius: 150px 25px
+      border-bottom-right-radius: 3px
+      border-bottom-left-radius: 3px
+      margin: auto
+
+    &__form-understanding
+      font-size: 10px
+      line-height: 13px
+      padding-bottom: 16px
+      margin: 0 auto 0
+
+    &__form-name
+      font-size: 14px
+      line-height: 19px
+      width: 82%
+      padding: 15px 27px 15px 18px
+      margin: 0 22px 14px
+
+    &__form-phone
+      font-size: 14px
+      line-height: 19px
+      width: 82%
+      padding: 15px 27px 15px 18px
+      margin: 0 22px 21px
+
+    &-offer
+      font-family: "Montserrat", sans-serif
+      font-style: normal
+      font-weight: 600
+      font-size: 16px
+      line-height: 20px
+      color: #333333
+      padding: 19px 20px 19px 21px
+      margin: 0 29px 15px
 
 @media (max-width: 320px)
   .container
@@ -1061,6 +1212,9 @@
       margin-right: 0
       margin-top: -37px
       margin-left: -12px
+
+    &__form
+      bottom: -317px
 
 
 
