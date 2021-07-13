@@ -274,36 +274,36 @@
               <div class="simile__container-images__accessoriesVr"></div>
             </div>
             <!-- /.simile__container-blocks simile__container-accessories -->
-          <div class="simile__container-blocks simile__container-reinforcement">
-            <div class="simile__container-blocks-name">
+            <div class="simile__container-blocks simile__container-reinforcement">
+              <div class="simile__container-blocks-name">
           <span class="simile__container-name">
             <img src="img/block-5/close-button.svg" alt="Закрыть" class="simile__container-name__closeButton">
             Армирование
             <img src="img/block-5/icon-check.svg" alt="Открыть" class="simile__container-name__iconCheck">
           </span>
+              </div>
+              <!-- /.simile__container-blocks-name-->
+              <img src="img/block-5/small_iron.png" alt="" class="simile__container-images simile__container-images__reinforcementBad">
+              <img src="img/block-5/big_iron.png" alt="" class="simile__container-images simile__container-images__reinforcementGood">
+              <div class="simile__container-images__accessoriesVr"></div>
             </div>
-            <!-- /.simile__container-blocks-name-->
-            <img src="img/block-5/small_iron.png" alt="" class="simile__container-images simile__container-images__reinforcementBad">
-            <img src="img/block-5/big_iron.png" alt="" class="simile__container-images simile__container-images__reinforcementGood">
-            <div class="simile__container-images__accessoriesVr"></div>
-          </div>
-          <!-- /.simile__container-blocks simile__container-reinforcement-->
-          <div class="simile__container-blocks simile__container-plastic">
-            <div class="simile__container-blocks-name">
+            <!-- /.simile__container-blocks simile__container-reinforcement-->
+            <div class="simile__container-blocks simile__container-plastic">
+              <div class="simile__container-blocks-name">
           <span class="simile__container-name">
             <img src="img/block-5/close-button.svg" alt="Закрыть" class="simile__container-name__closeButton">
             Пластик
             <img src="img/block-5/icon-check.svg" alt="Открыть" class="simile__container-name__iconCheck">
           </span>
+              </div>
+              <!-- /.simile__container-blocks-name-->
+              <img src="img/block-5/bad_plastic.png" alt="" class="simile__container-images simile__container-images__plasticsBad">
+              <img src="img/block-5/good_plastic.png" alt="" class="simile__container-images simile__container-images__plasticGood">
+              <div class="simile__container-images__accessoriesVr"></div>
             </div>
-            <!-- /.simile__container-blocks-name-->
-            <img src="img/block-5/bad_plastic.png" alt="" class="simile__container-images simile__container-images__plasticsBad">
-            <img src="img/block-5/good_plastic.png" alt="" class="simile__container-images simile__container-images__plasticGood">
-            <div class="simile__container-images__accessoriesVr"></div>
+            <!-- /.simile__container-blocks simile__container-plastic-->
           </div>
-          <!-- /.simile__container-blocks simile__container-plastic-->
-          </div>
-      <!-- /.simile__container-img -->
+          <!-- /.simile__container-img -->
         </div>
         <!-- /.simile__container -->
       </div>
@@ -311,38 +311,89 @@
     </section>
     <section class="search">
       <div class="search__background">
-      <div class="container">
-        <div class="search__description">
-        <h3 class="search__title">
-          Ищете, где приобрести <span class="search__title-object">недорогие и надежные</span> окна?
-        </h3>
-        <p class="search__description-text">Предлагаем продукцию от производителя <span class="search__description-text__object">с&nbsp;гарантией на 5 лет!</span></p>
-        <p class="search__description-text search__description-text__next">Мы проследим,чтобы окна были <span class="search__description-text__object">установлены грамотно и служили десятки лет.</span></p>
-        <p class="search__description-text search__description-text__next search__description-text__next-lineThree">Гарантируем <span class="search__description-text__object">качество и индивидуальный подход.</span></p>
-        </div>
-        <!-- /.search__description -->
-        <div class="form search__form">
-          <div class="form__frame search__form-frame">
-            <div class="form__border search__form-border">
-              <h3 class="form__text search__form-text">Оставьте заявку на замер прямо сейчас!</h3> <h3 class="search__form-text-mb">Заполните форму</h3>
-              <input type="text" class="form__name search__form-name" placeholder="Ваше Имя">
-              <input type="tel" class="form__phone search__form-phone" placeholder="Ваш телефон">
-              <button class="button search__button">Получить консультацию</button>
-              <p class="form__understanding search__form-understanding">
-                Нажимая на кнопку, вы даете согласие на обработку&nbsp;персональных данных и соглашаетесь
-                c&nbsp;<span class="form__understanding-text">политикой&nbsp;конфиденциальности.</span>
-              </p>
-            </div>
-            <!-- /.form__border -->
+        <div class="container">
+          <div class="search__description">
+            <h3 class="search__title">
+              Ищете, где приобрести <span class="search__title-object">недорогие и надежные</span> окна?
+            </h3>
+            <p class="search__description-text">Предлагаем продукцию от производителя
+              <span class="search__description-text__object">с&nbsp;гарантией на 5 лет!</span></p>
+            <p class="search__description-text search__description-text__next">Мы проследим,чтобы окна были
+              <span class="search__description-text__object">установлены грамотно и служили десятки лет.</span></p>
+            <p class="search__description-text search__description-text__next search__description-text__next-lineThree">
+              Гарантируем <span class="search__description-text__object">качество и индивидуальный подход.</span></p>
           </div>
-          <!-- /.form__frame -->
+          <!-- /.search__description -->
+          <div class="form search__form">
+            <div class="form__frame search__form-frame">
+              <div class="form__border search__form-border">
+                <h3 class="form__text search__form-text">Оставьте заявку на замер прямо сейчас!</h3>
+                <h3 class="search__form-text-mb">Заполните форму</h3>
+                <input type="text" class="form__name search__form-name" placeholder="Ваше Имя">
+                <input type="tel" class="form__phone search__form-phone" placeholder="Ваш телефон">
+                <button class="button search__button">Получить консультацию</button>
+                <p class="form__understanding search__form-understanding">
+                  Нажимая на кнопку, вы даете согласие на обработку&nbsp;персональных данных и соглашаетесь
+                  c&nbsp;<span class="form__understanding-text">политикой&nbsp;конфиденциальности.</span>
+                </p>
+              </div>
+              <!-- /.form__border -->
+            </div>
+            <!-- /.form__frame -->
+          </div>
+          <!-- /.form__search -->
         </div>
-        <!-- /.form__search -->
-      </div>
-      <!-- /.container -->
+        <!-- /.container -->
       </div>
       <!-- /.search__background -->
     </section>
+    <section class="benefit">
+      <div class="container">
+        <div class="benefit-wrapper">
+          <h2 class="benefit-wrapper__title"><span class="benefit-wrapper__title-object">Преимущества</span> работы с
+            нашей компанией
+          </h2>
+          <!-- /.benefit-container__title -->
+          <div class="benefit-wrapper__blocks">
+            <div class="benefit-wrapper__block benefit-wrapper__block-fabrication">
+              <img src="img/block-7/stopwatch.svg" alt="" class="benefit-wrapper__block-img benefit-wrapper__block-img_desktop benefit-wrapper__block-img_fabrication">
+              <img src="img/block-7/iconStopwatch.svg" alt="" class="benefit-wrapper__block-img benefit-wrapper__block-img_mobile benefit-wrapper__block-img_fabrication">
+              <span class="benefit-wrapper__block-text benefit-wrapper__block-text_fabrication">Срок изготовления от 3-х дней</span>
+            </div>
+            <!-- /.benefit-container__fabrication -->
+            <div class="benefit-wrapper__block benefit-wrapper__block-installment-plan">
+              <img src="img/block-7/iconCredit.svg" alt="" class="benefit-wrapper__block-img benefit-wrapper__block-img_plan">
+              <span class="benefit-wrapper__block-text benefit-wrapper__block-text_plan">Рассрочка и кредит в офисе</span>
+            </div>
+            <!-- /.benefit-container__installment-plan -->
+            <div class="benefit-wrapper__block benefit-wrapper__block-service">
+              <img src="img/block-7/iconSettings.svg" alt="" class="benefit-wrapper__block-img benefit-wrapper__block-img_service">
+              <span class="benefit-wrapper__block-text benefit-wrapper__block-text_service">Сервисное обслуживание на весь&nbsp;срок гарантии</span>
+            </div>
+            <!-- /.benefit-container__service -->
+            <div class="benefit-wrapper__block benefit-wrapper__block-delivery">
+              <img src="img/block-7/delivery-truck.svg" alt="" class="benefit-wrapper__block-img benefit-wrapper__block-img_delivery">
+              <span class="benefit-wrapper__block-text benefit-wrapper__block-text_delivery">Бесплатная доставка</span>
+            </div>
+            <!-- /.benefit-container__delivery -->
+            <div class="benefit-wrapper__block benefit-wrapper__block-quality">
+              <img src="img/block-7/iconShield.svg" alt="" class="benefit-wrapper__block-img benefit-wrapper__block-img_quality">
+              <span class="benefit-wrapper__block-text benefit-wrapper__block-text_quality">Контроль качества монтажа</span>
+            </div>
+            <!-- /.benefit-container__quality -->
+            <div class="benefit-wrapper__block benefit-wrapper__block-discounts">
+              <img src="img/block-7/iconPrice.svg" alt="" class="benefit-wrapper__block-img benefit-wrapper__block-img_discounts ">
+              <span class="benefit-wrapper__block-text benefit-wrapper__block-text_discounts">Система скидок постоянным клиентам и дополнительные скидки пенсионерам</span>
+            </div>
+            <!-- /.benefit-container__discounts -->
+          </div>
+          <!-- /.benefit-wrapper__blocks -->
+        </div>
+        <!-- /.benefit-wrapper -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.benefit -->
   </body>
 </html>
 
