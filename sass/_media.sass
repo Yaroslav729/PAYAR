@@ -57,6 +57,13 @@
     &__blocks
       justify-content: space-evenly
 
+  .about
+    &-wrapper
+      padding: 0 10px
+    &-arguments
+      &__images
+        margin-right: 40px
+
 @media (max-width: 1199px)
   .container
     max-width: 960px
@@ -228,6 +235,58 @@
       font-size: 8px
       line-height: 13px
       margin-top: 21px
+  .about
+    &-wrapper
+      &__title
+        width: 550px
+        margin: 0 auto 25px
+
+      &__company
+        width: 688px
+        font-size: 18px
+        line-height: 30px
+
+    &-arguments
+      display: flex
+      flex-direction: column
+
+      &__images
+        width: 568px
+        order: 1
+        margin: auto
+
+      &__blocks
+        width: 660px
+        position: relative
+        margin: 0 auto 35px
+
+        &-wrap
+          order: 2
+          margin: auto
+
+        &-text
+          order: 3
+          width: 637px
+          position: absolute
+          bottom: -885px
+          left: 21px
+
+        &-connection
+          order: 4
+          position: absolute
+          bottom: -919px
+          left: 21px
+
+      &__quote
+        position: relative
+        bottom: -1203px
+        left: 24px
+
+      &__pointer
+        position: relative
+        bottom: -1323px
+        left: 29px
+
 
 @media (max-width: 991px)
   .container
@@ -506,59 +565,98 @@
     height: 135px
     margin: auto
 
-  .benefit-wrapper
-    &__title
-      width: 383px
-      font-size: 30px
-      line-height: 37px
-      margin: 58px auto 50px
-      padding-top: 300px
+  .benefit
+    margin-bottom: 101px
+    &-wrapper
+      &__title
+        width: 383px
+        font-size: 30px
+        line-height: 37px
+        margin: 58px auto 50px
+        padding-top: 300px
 
-    &__blocks
-      justify-content: space-between
-      padding-bottom: 80px
+      &__blocks
+        justify-content: space-between
+        padding-bottom: 80px
 
-    &__block
-      width: 344px
-      padding-left: 16px
+      &__block
+        width: 344px
+        padding-left: 16px
 
-      &-text
-        width: 243px
-        font-size: 16px
-        line-height: 22px
+        &-text
+          width: 243px
+          font-size: 16px
+          line-height: 22px
 
-        &_service
-          width: 222px
-          margin-top: 5px
+          &_service
+            width: 222px
+            margin-top: 5px
 
-        &_quality
-          margin-top: 8px
+          &_quality
+            margin-top: 8px
 
-        &_delivery
-          margin-top: 7px
+          &_delivery
+            margin-top: 7px
 
-        &_discounts
-          margin-top: 1px
+          &_discounts
+            margin-top: 1px
 
 
-      &-img
-        width: 50px
-        height: 50px
+        &-img
+          width: 50px
+          height: 50px
 
-        &_service
-          margin-right: 22px
+          &_service
+            margin-right: 22px
 
-        &_quality
-          margin-right: 22px
+          &_quality
+            margin-right: 22px
 
-        &_plan
-          margin-right: 20px
+          &_plan
+            margin-right: 20px
 
-        &_delivery
-          margin-right: 20px
+          &_delivery
+            margin-right: 20px
 
-        &_discounts
-          margin-right: 20px
+          &_discounts
+            margin-right: 20px
+
+  .about
+    &-arguments
+      &__blocks
+        margin-bottom: 31px
+
+        &-text
+          bottom: -910px
+          left: 16px
+
+        &-connection
+          bottom: -950px
+          left: 16px
+
+      &__quote
+        bottom: -1228px
+        left: 16px
+
+      &__pointer
+        bottom: -1348px
+        left: 18px
+
+      &__images
+        &-name
+          right: -29px
+
+    &-wrapper
+      &__title
+        font-size: 30px
+        line-height: 51px
+        margin-bottom: 19px
+
+      &__company
+        margin-bottom: 52px
+
+
+
 
 
 @media (max-width: 767px)
@@ -724,6 +822,51 @@
 
     &__blocks
       justify-content: center
+
+  .about
+    &-wrapper
+      &__title
+        width: 515px
+      &__company
+        width: 450px
+
+    &-arguments
+      &__blocks
+        width: 400px
+        &-wrap
+          width: 400px
+
+        &-year
+          flex-basis: 100%
+
+        &-order
+          flex-basis: 100%
+
+        &-camper
+          flex-basis: 100%
+
+        &-mall
+          flex-basis: 100%
+
+        &-text
+          width: 430px
+          left: -25px
+          bottom: -938px
+
+        &-connection
+          left: -25px
+          bottom: -985px
+
+      &__quote
+        bottom: -1635px
+        left: -18px
+
+      &__pointer
+        bottom: -1827px
+        left: -18px
+
+      &__images
+        width: 400px
 
 @media (max-width: 576px)
   .container
@@ -1199,65 +1342,186 @@
       padding: 19px 20px 19px 21px
       margin: 0 29px 15px
 
-  .benefit-wrapper
-    &__title
-      width: 232px
-      font-size: 18px
-      line-height: 28px
-      padding-top: 71px
-      margin-bottom: 31px
+  .benefit
+    margin-bottom: 69px
+    &-wrapper
+      &__blocks
+        padding-bottom: 50px
 
-    &__block
-      width: 280px
-      height: 80px
-      padding-left: 19px
+      &__title
+        width: 232px
+        font-size: 18px
+        line-height: 28px
+        padding-top: 71px
+        margin-bottom: 31px
 
-      &-fabrication
-        box-shadow: none
-        background: none
+      &__block
+        width: 280px
+        height: 80px
+        padding-left: 19px
 
-      &-img
-        width: 40px
-        height: 40px
+        &-fabrication
+          box-shadow: none
+          background: none
 
-        &_desktop
-          display: none
+        &-img
+          width: 40px
+          height: 40px
 
-        &_mobile
-          display: block
+          &_desktop
+            display: none
 
-        &_fabrication
-          margin-right: 15px
+          &_mobile
+            display: block
 
-        &_service
-          margin-right: 15px
+          &_fabrication
+            margin-right: 15px
 
-        &_quality
-          margin-right: 15px
+          &_service
+            margin-right: 15px
 
-        &_plan
-          margin-right: 15px
+          &_quality
+            margin-right: 15px
 
-        &_delivery
-          margin-right: 15px
+          &_plan
+            margin-right: 15px
 
-      &-text
-        width: 182px
+          &_delivery
+            margin-right: 15px
+
+        &-text
+          width: 182px
+          font-size: 12px
+          line-height: 16px
+
+          &_service
+            margin-top: 0
+            width: 170px
+
+          &_quality
+            margin-top: 0
+
+          &_plan
+            margin-top: 0
+
+          &_delivery
+            margin-top: 0
+  .about
+    &-wrapper
+      padding: 0
+      &__title
+        width: 217px
+        font-size: 18px
+        line-height: 28px
+        margin-bottom: 21px
+
+      &__company
+        width: 280px
         font-size: 12px
-        line-height: 16px
+        line-height: 20px
+        margin-bottom: 29px
 
-        &_service
-          margin-top: 0
-          width: 170px
+    &-arguments
+      margin: auto
+      &__blocks
+        width: 280px
+        flex-direction: row
 
-        &_quality
-          margin-top: 0
+        &-wrap
+          width: 280px
 
-        &_plan
-          margin-top: 0
+        &-year
+          width: 280px
+          margin-bottom: 20px
 
-        &_delivery
-          margin-top: 0
+        &-order
+          width: 280px
+          margin-bottom: 20px
+
+        &-camper
+          width: 320px
+          margin-bottom: 20px
+
+        &-mall
+          width: 320px
+          margin-bottom: -1px
+
+        &-text
+          width: 300px
+          left: -25px
+          bottom: -515px
+          font-size: 12px
+          line-height: 20px
+
+        &-connection
+          left: -25px
+          bottom: -526px
+
+          &__whatsapp
+            padding: 5px 12px 5px 11px
+            margin-right: 3px
+
+          &__phone
+            padding: 5px 18px 5px 9px
+            margin-right: 3px
+
+          &__telegram
+            padding: 5px 15px 5px 11px
+
+      &__quote
+        position: absolute
+        width: 80px
+        bottom: -414px
+        left: -11px
+
+      &__pointer
+        position: absolute
+        bottom: -639px
+        width: 100px
+        height: 100px
+        left: 11px
+
+      &__images
+        position: relative
+        width: 280px
+        height: 335px
+        background-image: url("../img/block-8/head_320.png")
+        background-repeat: no-repeat
+
+        &-name
+          right: -12px
+          top: 16px
+          font-size: 12px
+          line-height: 12px
+          padding: 8px 14px
+
+      &__img
+        &-quote
+          width: 40px
+          height: 40px
+
+        &-pointer
+          width: 35px
+          height: 51px
+
+        &-whatsapp
+          width: 16px
+          height: 16px
+          margin-right: 3px
+
+        &-phone
+          width: 16px
+          height: 16px
+          margin-right: 3px
+
+        &-telegram
+          width: 16px
+          height: 16px
+          margin-right: 3px
+
+      &__link
+        font-size: 10px
+        line-height: 12px
 
 @media (max-width: 320px)
   .container

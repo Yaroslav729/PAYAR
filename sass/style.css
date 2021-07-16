@@ -1086,6 +1086,7 @@ img {
 
 .benefit {
   background: #EFEFF0;
+  margin-bottom: 120px;
 }
 
 .benefit-wrapper__title {
@@ -1149,6 +1150,217 @@ img {
   display: none;
 }
 
+.about-wrapper__title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 51px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 30px;
+}
+.about-wrapper__title-object {
+  color: #08597D;
+}
+.about-wrapper__company {
+  display: block;
+  width: 1085px;
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  margin: 0 auto 70px;
+  color: #333333;
+}
+.about-arguments {
+  display: flex;
+  justify-content: space-between;
+}
+.about-arguments__img-year {
+  width: 96px;
+  text-align: center;
+  margin: 0 auto 4px;
+}
+.about-arguments__img-order {
+  width: 192px;
+  text-align: center;
+  margin: 0 auto 8px;
+}
+.about-arguments__img-camper {
+  width: 201px;
+  text-align: center;
+  margin: 0 auto 6px;
+}
+.about-arguments__img-whatsapp {
+  margin-top: 2px;
+  margin-right: 5px;
+}
+.about-arguments__img-phone {
+  margin-top: 3px;
+  margin-right: 5px;
+}
+.about-arguments__img-telegram {
+  margin-top: 1px;
+  margin-right: 4px;
+}
+.about-arguments__img-mall {
+  width: 161px;
+  text-align: center;
+  margin: 0 auto 1px;
+}
+.about-arguments__img-quote {
+  position: absolute;
+  top: -28px;
+  left: 6px;
+}
+.about-arguments__img-pointer {
+  position: absolute;
+  top: -71px;
+  left: -35px;
+}
+.about-arguments__quote {
+  position: relative;
+}
+.about-arguments__pointer {
+  position: relative;
+}
+.about-arguments__images {
+  position: relative;
+  width: 568px;
+  height: 679px;
+  background-image: url("../img/block-8/head.png");
+}
+.about-arguments__images-name {
+  position: absolute;
+  top: 32px;
+  right: -36px;
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 32px;
+  color: #333333;
+  background: #FFFFFF;
+  border: 1px solid #08597D;
+  box-sizing: border-box;
+  border-radius: 1px;
+  padding: 13px 26px 14px 33px;
+}
+.about-arguments__link {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.about-arguments__blocks {
+  display: flex;
+  flex-direction: column;
+}
+.about-arguments__blocks-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 660px;
+  margin-bottom: 35px;
+}
+.about-arguments__blocks-text {
+  width: 637px;
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #333333;
+  padding-left: 24px;
+  margin-bottom: 29px;
+  z-index: 20;
+}
+.about-arguments__blocks-connection {
+  display: flex;
+  border-radius: 1px;
+  padding-left: 24px;
+}
+.about-arguments__blocks-connection__whatsapp {
+  background: #08597D;
+  border-radius: 1px;
+  margin-right: 12px;
+  padding: 5px 12px 5px 8px;
+}
+.about-arguments__blocks-connection__phone {
+  background: #08597D;
+  border-radius: 1px;
+  margin-right: 12px;
+  padding: 5px 21px 5px 8px;
+}
+.about-arguments__blocks-connection__telegram {
+  background: #08597D;
+  border-radius: 1px;
+  padding: 5px 19px 5px 7px;
+}
+.about-arguments__blocks-block {
+  display: flex;
+  flex-direction: column;
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 19px;
+}
+.about-arguments__blocks-year {
+  width: 320px;
+  height: 180px;
+  border: 1px solid #08597D;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding-top: 34px;
+}
+.about-arguments__blocks-year__text {
+  margin-bottom: 11px;
+}
+.about-arguments__blocks-order {
+  width: 320px;
+  height: 180px;
+  border: 1px solid #08597D;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding-top: 34px;
+}
+.about-arguments__blocks-order__text {
+  margin-bottom: 11px;
+}
+.about-arguments__blocks-camper {
+  width: 320px;
+  height: 220px;
+  border: 1px solid #08597D;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding-top: 28px;
+}
+.about-arguments__blocks-camper__text {
+  width: 193px;
+  margin: 0 auto 9px;
+}
+.about-arguments__blocks-mall {
+  width: 320px;
+  height: 220px;
+  border: 1px solid #08597D;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding-top: 28px;
+}
+.about-arguments__blocks-mall__text {
+  width: 233px;
+  margin: 0 auto 2px;
+}
+
 @media (max-width: 1400px) {
   .container {
     width: 1200px;
@@ -1206,6 +1418,13 @@ img {
 
   .benefit-wrapper__blocks {
     justify-content: space-evenly;
+  }
+
+  .about-wrapper {
+    padding: 0 10px;
+  }
+  .about-arguments__images {
+    margin-right: 40px;
   }
 }
 @media (max-width: 1199px) {
@@ -1376,6 +1595,57 @@ img {
     font-size: 8px;
     line-height: 13px;
     margin-top: 21px;
+  }
+
+  .about-wrapper__title {
+    width: 550px;
+    margin: 0 auto 25px;
+  }
+  .about-wrapper__company {
+    width: 688px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .about-arguments {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-arguments__images {
+    width: 568px;
+    order: 1;
+    margin: auto;
+  }
+  .about-arguments__blocks {
+    width: 660px;
+    position: relative;
+    margin: 0 auto 35px;
+  }
+  .about-arguments__blocks-wrap {
+    order: 2;
+    margin: auto;
+  }
+  .about-arguments__blocks-text {
+    order: 3;
+    width: 637px;
+    position: absolute;
+    bottom: -885px;
+    left: 21px;
+  }
+  .about-arguments__blocks-connection {
+    order: 4;
+    position: absolute;
+    bottom: -919px;
+    left: 21px;
+  }
+  .about-arguments__quote {
+    position: relative;
+    bottom: -1203px;
+    left: 24px;
+  }
+  .about-arguments__pointer {
+    position: relative;
+    bottom: -1323px;
+    left: 29px;
   }
 }
 @media (max-width: 991px) {
@@ -1656,6 +1926,9 @@ img {
     margin: auto;
   }
 
+  .benefit {
+    margin-bottom: 101px;
+  }
   .benefit-wrapper__title {
     width: 383px;
     font-size: 30px;
@@ -1707,6 +1980,37 @@ img {
   }
   .benefit-wrapper__block-img_discounts {
     margin-right: 20px;
+  }
+
+  .about-arguments__blocks {
+    margin-bottom: 31px;
+  }
+  .about-arguments__blocks-text {
+    bottom: -910px;
+    left: 16px;
+  }
+  .about-arguments__blocks-connection {
+    bottom: -950px;
+    left: 16px;
+  }
+  .about-arguments__quote {
+    bottom: -1228px;
+    left: 16px;
+  }
+  .about-arguments__pointer {
+    bottom: -1348px;
+    left: 18px;
+  }
+  .about-arguments__images-name {
+    right: -29px;
+  }
+  .about-wrapper__title {
+    font-size: 30px;
+    line-height: 51px;
+    margin-bottom: 19px;
+  }
+  .about-wrapper__company {
+    margin-bottom: 52px;
   }
 }
 @media (max-width: 767px) {
@@ -1865,6 +2169,51 @@ img {
   }
   .benefit-wrapper__blocks {
     justify-content: center;
+  }
+
+  .about-wrapper__title {
+    width: 515px;
+  }
+  .about-wrapper__company {
+    width: 450px;
+  }
+  .about-arguments__blocks {
+    width: 400px;
+  }
+  .about-arguments__blocks-wrap {
+    width: 400px;
+  }
+  .about-arguments__blocks-year {
+    flex-basis: 100%;
+  }
+  .about-arguments__blocks-order {
+    flex-basis: 100%;
+  }
+  .about-arguments__blocks-camper {
+    flex-basis: 100%;
+  }
+  .about-arguments__blocks-mall {
+    flex-basis: 100%;
+  }
+  .about-arguments__blocks-text {
+    width: 430px;
+    left: -25px;
+    bottom: -938px;
+  }
+  .about-arguments__blocks-connection {
+    left: -25px;
+    bottom: -985px;
+  }
+  .about-arguments__quote {
+    bottom: -1635px;
+    left: -18px;
+  }
+  .about-arguments__pointer {
+    bottom: -1827px;
+    left: -18px;
+  }
+  .about-arguments__images {
+    width: 400px;
   }
 }
 @media (max-width: 576px) {
@@ -2340,6 +2689,12 @@ img {
     margin: 0 29px 15px;
   }
 
+  .benefit {
+    margin-bottom: 69px;
+  }
+  .benefit-wrapper__blocks {
+    padding-bottom: 50px;
+  }
   .benefit-wrapper__title {
     width: 232px;
     font-size: 18px;
@@ -2398,6 +2753,124 @@ img {
   }
   .benefit-wrapper__block-text_delivery {
     margin-top: 0;
+  }
+
+  .about-wrapper {
+    padding: 0;
+  }
+  .about-wrapper__title {
+    width: 217px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 21px;
+  }
+  .about-wrapper__company {
+    width: 280px;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 29px;
+  }
+  .about-arguments {
+    margin: auto;
+  }
+  .about-arguments__blocks {
+    width: 280px;
+    flex-direction: row;
+  }
+  .about-arguments__blocks-wrap {
+    width: 280px;
+  }
+  .about-arguments__blocks-year {
+    width: 280px;
+    margin-bottom: 20px;
+  }
+  .about-arguments__blocks-order {
+    width: 280px;
+    margin-bottom: 20px;
+  }
+  .about-arguments__blocks-camper {
+    width: 320px;
+    margin-bottom: 20px;
+  }
+  .about-arguments__blocks-mall {
+    width: 320px;
+    margin-bottom: -1px;
+  }
+  .about-arguments__blocks-text {
+    width: 300px;
+    left: -25px;
+    bottom: -515px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .about-arguments__blocks-connection {
+    left: -25px;
+    bottom: -526px;
+  }
+  .about-arguments__blocks-connection__whatsapp {
+    padding: 5px 12px 5px 11px;
+    margin-right: 3px;
+  }
+  .about-arguments__blocks-connection__phone {
+    padding: 5px 18px 5px 9px;
+    margin-right: 3px;
+  }
+  .about-arguments__blocks-connection__telegram {
+    padding: 5px 15px 5px 11px;
+  }
+  .about-arguments__quote {
+    position: absolute;
+    width: 80px;
+    bottom: -414px;
+    left: -11px;
+  }
+  .about-arguments__pointer {
+    position: absolute;
+    bottom: -639px;
+    width: 100px;
+    height: 100px;
+    left: 11px;
+  }
+  .about-arguments__images {
+    position: relative;
+    width: 280px;
+    height: 335px;
+    background-image: url("../img/block-8/head_320.png");
+    background-repeat: no-repeat;
+  }
+  .about-arguments__images-name {
+    right: -12px;
+    top: 16px;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 8px 14px;
+  }
+  .about-arguments__img-quote {
+    width: 40px;
+    height: 40px;
+  }
+  .about-arguments__img-pointer {
+    width: 35px;
+    height: 51px;
+  }
+  .about-arguments__img-whatsapp {
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+  }
+  .about-arguments__img-phone {
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+  }
+  .about-arguments__img-telegram {
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+  }
+  .about-arguments__link {
+    font-size: 10px;
+    line-height: 12px;
   }
 }
 @media (max-width: 320px) {

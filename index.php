@@ -394,6 +394,83 @@
       <!-- /.container -->
     </section>
     <!-- /.benefit -->
+    <section class="about">
+      <div class="container">
+        <div class="about-wrapper">
+          <h2 class="about-wrapper__title">
+            <span class="about-wrapper__title-object">Основатель</span> компании
+          </h2>
+          <!-- /.about-wrapper__title -->
+          <span class="about-wrapper__company">
+            Компания была основана в 2005 году после многолетней работы будущим руководителем в монтажной бригаде, были изучены все аспекты данной сферы работы на основе полученных данных   мы воплощаем всевозможные проекты независимо от сложности конструктивных решений.
+          </span>
+          <!-- /.about-company -->
+          <div class="about-arguments">
+            <div class="about-arguments__images">
+              <span class="about-arguments__images-name">Лушников Павел Владимирович</span>
+            </div>
+            <!-- /.about-arguments_images -->
+            <div class="about-arguments__blocks">
+              <div class="about-arguments__blocks-wrap">
+                <div class="about-arguments__blocks-block about-arguments__blocks-year">
+                  <span class="about-arguments__blocks-year__text">Более чем</span>
+                  <img src="img/block-8/year.svg" alt="" class="about-arguments__img-year">
+                  <span class="about-arguments__blocks-year__text"> успешной работы</span>
+                </div>
+                <div class="about-arguments__blocks-block about-arguments__blocks-order">
+                  <span class="about-arguments__blocks-order__text">Выполнено более</span>
+                  <img src="img/block-8/private_orders.svg" alt="" class="about-arguments__img-order">
+                  <span class="about-arguments__blocks-order__text"> частных заказов</span>
+                </div>
+                <div class="about-arguments__blocks-block about-arguments__blocks-camper">
+                  <span class="about-arguments__blocks-camper__text">Более</span>
+                  <img src="img/block-8/tourism.svg" alt="" class="about-arguments__img-camper">
+                  <span class="about-arguments__blocks-camper__text">в сфере гостинично-туристической сферы</span>
+                </div>
+                <div class="about-arguments__blocks-block about-arguments__blocks-mall">
+                  <span class="about-arguments__blocks-mall__text">Более</span>
+                  <img src="img/block-8/mall.svg" alt="" class="about-arguments__img-mall">
+                  <span class="about-arguments__blocks-mall__text">по остеклению торговых, развлекательных и бизнес центров. </span>
+                </div>
+              </div>
+              <!-- /.about-arguments__blocks-wrap -->
+              <div class="about-arguments__quote">
+                <img src="img/block-8/quotes.svg" alt="" class="about-arguments__img-quote">
+              </div>
+              <span class="about-arguments__blocks-text">Напишите мне какое окно и на какой бюджет планируете приобрести и я подскажу вам наиболее лучший для вас вариант, укажу все преимущества и недостатки.</span>
+              <div class="about-arguments__pointer">
+                <img src="img/block-8/pointer.svg" alt="" class="about-arguments__img-pointer">
+              </div>
+              <div class="about-arguments__blocks-connection">
+                <div class="about-arguments__blocks-connection__whatsapp">
+                  <a href="#" class="about-arguments__link">
+                    <img src="img/block-8/iconWhatsapp.svg" alt="" class="about-arguments__img-whatsapp">
+                    Whatsapp
+                  </a>
+                </div>
+                <div class="about-arguments__blocks-connection__phone">
+                  <a href="tel:+79139039199" class="about-arguments__link">
+                    <img src="img/block-8/iconTelephone.svg" alt="" class="about-arguments__img-phone">
+                    Телефон
+                  </a>
+                </div>
+                <div class="about-arguments__blocks-connection__telegram">
+                  <a href="#" class="about-arguments__link">
+                    <img src="img/block-8/iconTelegram.svg" alt="" class="about-arguments__img-telegram">
+                    Telegram
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- /.about-arguments__blocks -->
+          </div>
+          <!-- /.about-arguments -->
+        </div>
+        <!-- /.about-wrapper -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.about -->
   </body>
 </html>
 
