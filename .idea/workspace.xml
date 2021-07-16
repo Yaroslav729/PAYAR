@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b79dc1d-b3d0-4893-9c5c-5580d8305706" name="Default Changelist" comment="create: Block-6, media block-6, form">
-      <change afterPath="$PROJECT_DIR$/sass/block/_benefit.sass" afterDir="false" />
+    <list default="true" id="3b79dc1d-b3d0-4893-9c5c-5580d8305706" name="Default Changelist" comment="create: Block-7, media block-7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_media.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +73,7 @@
       <workItem from="1626331453484" duration="47000" />
       <workItem from="1626331513780" duration="9649000" />
       <workItem from="1626358612841" duration="4824000" />
-      <workItem from="1626421839390" duration="11944000" />
+      <workItem from="1626421839390" duration="13201000" />
     </task>
     <task id="LOCAL-00001" summary="create: Block-3, media block-3">
       <created>1624649913323</created>
@@ -120,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626202538165</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="create: Block-7, media block-7">
+      <created>1626435728199</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626435728199</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +150,7 @@
     <MESSAGE value="create: Block-6, media block-6" />
     <MESSAGE value="create: Block-6, media block-6," />
     <MESSAGE value="create: Block-6, media block-6, form" />
-    <option name="LAST_COMMIT_MESSAGE" value="create: Block-6, media block-6, form" />
+    <MESSAGE value="create: Block-7, media block-7" />
+    <option name="LAST_COMMIT_MESSAGE" value="create: Block-7, media block-7" />
   </component>
 </project>
