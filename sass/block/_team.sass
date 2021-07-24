@@ -1,0 +1,73 @@
+.swiper-container
+  width: 1122px
+  height: 635px
+
+.team
+  background: #EFEFF0
+  padding-top: 120px
+  padding-bottom: 192px
+  &-title
+    font-family: "Montserrat", sans-serif
+    font-style: normal
+    font-weight: 600
+    font-size: 42px
+    line-height: 51px
+    color: $standart
+    margin: 0 auto 71px
+    width: 331px
+
+    &__object
+      color: $dark_azure
+
+.swiper
+  &-slide
+    &__people
+      position: relative
+      margin-bottom: 19px
+
+    &__name
+      position: absolute
+      right: 12px
+      bottom: 43%
+      padding: 12px 31px 12px 31px
+      border: 1px solid #08597D
+      box-sizing: border-box
+      border-radius: 1px
+      z-index: 99
+      font-family: "Noto Sans", sans-serif
+      font-style: normal
+      font-weight: normal
+      font-size: 18px
+      line-height: 25px
+      color: #FF0000
+      background: #FFFFFF
+
+      &--active
+        color: black
+
+  &-pagination
+    &--media
+      display: none
+
+.slider
+  width: 1350px
+  position: relative
+  &-button
+    position: absolute
+    top: 28%
+    transform: translateY(-27%)
+    width: 40px
+    height: 40px
+    border: none
+    z-index: 99
+    cursor: pointer
+
+    &--next
+      right: 37px
+      background-image: url("../img/block-9/arrow-next.svg")
+      background-repeat: no-repeat
+
+    &--prev
+      left: 9px
+      background-image: url("../img/block-9/arrow-prev.svg")
+      background-repeat: no-repeat

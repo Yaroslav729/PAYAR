@@ -64,6 +64,25 @@
       &__images
         margin-right: 40px
 
+  .swiper-container
+    width: 745px
+
+  .swiper
+    &-slide
+      &__name
+        right: 0
+
+  .slider
+    width: 1200px
+    margin: auto
+
+    &-button
+      &--next
+        right: 120px
+
+      &--prev
+        left: 120px
+
 @media (max-width: 1199px)
   .container
     max-width: 960px
@@ -236,6 +255,7 @@
       line-height: 13px
       margin-top: 21px
   .about
+    margin-bottom: 305px
     &-wrapper
       &__title
         width: 550px
@@ -287,6 +307,17 @@
         bottom: -1323px
         left: 29px
 
+  .swiper-container
+    width: 745px
+
+  .slider
+    width: 950px
+    &-button
+      &--next
+        right: 40px
+
+      &--prev
+        left: 40px
 
 @media (max-width: 991px)
   .container
@@ -622,6 +653,7 @@
             margin-right: 20px
 
   .about
+    margin-bottom: 340px
     &-arguments
       &__blocks
         margin-bottom: 31px
@@ -655,9 +687,45 @@
       &__company
         margin-bottom: 52px
 
+  .team
+    padding-top: 100px
+    padding-bottom: 100px
+
+    &-title
+      width: 236px
+      font-size: 30px
+      line-height: 37px
+      margin-bottom: 66px
+
+  .swiper
+    &-slide
+      &__name
+        right: 0
+        bottom: 42.5%
+        padding: 12px 21px 12px 30px
+
+      &__people
+        margin-bottom: 21px
 
 
+  .swiper-container
+    width: 353px
 
+  .slider
+    width: 730px
+
+    &-button
+      width: 30px
+      height: 30px
+      transform: translateY(-36%)
+
+      &--next
+        right: 23px
+        background-position: center
+
+      &--prev
+        left: 5px
+        background-position: center
 
 @media (max-width: 767px)
   .container
@@ -867,6 +935,33 @@
 
       &__images
         width: 400px
+
+  .swiper
+    &-slide
+
+      &__people
+        margin-bottom: 21px
+
+
+  .swiper-container
+    width: 353px
+
+  .slider
+    width: 500px
+    margin: auto
+
+    &-button
+      width: 30px
+      height: 30px
+      transform: translateY(-36%)
+
+      &--next
+        right: 23px
+        background-position: center
+
+      &--prev
+        left: 5px
+        background-position: center
 
 @media (max-width: 576px)
   .container
@@ -1407,7 +1502,7 @@
           &_delivery
             margin-top: 0
   .about
-    margin: auto
+    margin: 0 auto 231px
     &-wrapper
       width: 280px
       padding: 0
@@ -1525,6 +1620,42 @@
       &__link
         font-size: 10px
         line-height: 12px
+
+  .team
+    padding-top: 70px
+    padding-bottom: 15px
+    &-title
+      width: 142px
+      font-size: 18px
+      line-height: 22px
+      margin-bottom: 51px
+
+  .slider
+    width: 279px
+
+    &-button
+      display: none
+
+  .swiper
+    &-container
+      width: 293px
+    &-pagination
+      &--media
+        display: block
+
+    &-slide
+      &__people
+        width: 278px
+
+      &__certificate
+        width: 279px
+
+      &__name
+        bottom: 52%
+        padding: 13px 25px 13px 18px
+        right: 0
+        font-size: 12px
+        line-height: 16px
 
 @media (max-width: 320px)
   .container

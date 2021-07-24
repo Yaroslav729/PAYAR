@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b79dc1d-b3d0-4893-9c5c-5580d8305706" name="Default Changelist" comment="create: block-8">
+    <list default="true" id="3b79dc1d-b3d0-4893-9c5c-5580d8305706" name="Default Changelist" comment="create: block-8, media">
+      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/block/_team.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_media.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/block/_about.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/block/_about.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +41,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -83,7 +88,9 @@
       <workItem from="1626890018980" duration="599000" />
       <workItem from="1626929944574" duration="4464000" />
       <workItem from="1626967175280" duration="15077000" />
-      <workItem from="1627115299859" duration="2744000" />
+      <workItem from="1627115299859" duration="8205000" />
+      <workItem from="1627191897347" duration="28442000" />
+      <workItem from="1627233769389" duration="11499000" />
     </task>
     <task id="LOCAL-00001" summary="create: Block-3, media block-3">
       <created>1624649913323</created>
@@ -155,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626986200845</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="create: block-8, media">
+      <created>1627121707854</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1627121707854</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +198,7 @@
     <MESSAGE value="create: Block-7, media block-7" />
     <MESSAGE value="create: media block-6 background" />
     <MESSAGE value="create: block-8" />
-    <option name="LAST_COMMIT_MESSAGE" value="create: block-8" />
+    <MESSAGE value="create: block-8, media" />
+    <option name="LAST_COMMIT_MESSAGE" value="create: block-8, media" />
   </component>
 </project>

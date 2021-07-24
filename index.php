@@ -8,6 +8,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Noto+Sans:wght@400;700&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="sass/style.css">
   </head>
   <body>
@@ -471,6 +472,63 @@
       <!-- /.container -->
     </section>
     <!-- /.about -->
+    <section class="team">
+      <div class="container">
+        <h2 class="team-title">Наша <span class="team-title__object">команда</span></h2>
+        <!-- Slider main container -->
+        <div class="slider">
+          <!-- If we need navigation buttons -->
+          <button class="slider-button slider-button--prev"></button>
+          <button class="slider-button slider-button--next"></button>
+          <div class="swiper-container swiper-containerTeam">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="swiper-slide__name swiper-slide__name--active">Зверков Алексей Владимирович</div>
+                <img src="img/block-9/katunin.png" alt="" class="swiper-slide__people">
+                <img src="img/block-9/lushnikov.png" alt="" class="swiper-slide__certificate">
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide__name">Зверков Алексей Владимирович</div>
+                <img src="img/block-9/katunin.png" alt="" class="swiper-slide__people">
+                <img src="img/block-9/byneev.png" alt="" class="swiper-slide__certificate">
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide__name">Зверков Алексей Владимирович</div>
+                <img src="img/block-9/katunin.png" alt="" class="swiper-slide__people">
+                <img src="img/block-9/zverkov.png" alt="" class="swiper-slide__certificate">
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide__name">Зверков Алексей Владимирович</div>
+                <img src="img/block-9/katunin.png" alt="" class="swiper-slide__people">
+                <img src="img/block-9/lushnikov.png" alt="" class="swiper-slide__certificate">
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide__name">Зверков Алексей Владимирович</div>
+                <img src="img/block-9/katunin.png" alt="" class="swiper-slide__people">
+                <img src="img/block-9/lushnikov.png" alt="" class="swiper-slide__certificate">
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide__name">Зверков Алексей Владимирович</div>
+                <img src="img/block-9/katunin.png" alt="" class="swiper-slide__people">
+                <img src="img/block-9/lushnikov.png" alt="" class="swiper-slide__certificate">
+              </div>
+            </div>
+            <!-- swiper-wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination swiper-pagination--media"></div>
+            <!-- If we need scrollbar -->
+          </div>
+          <!-- /.swiper-container -->
+        </div>
+        <!-- /.slider -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.team -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
 
