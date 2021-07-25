@@ -1427,6 +1427,7 @@ img {
   border: none;
   z-index: 99;
   cursor: pointer;
+  background: none;
 }
 .slider-button--next {
   right: 37px;
@@ -3067,10 +3068,11 @@ img {
     padding-bottom: 15px;
   }
   .team-title {
-    width: 142px;
+    width: 279px;
     font-size: 18px;
     line-height: 22px;
     margin-bottom: 51px;
+    text-align: center;
   }
 
   .slider {
