@@ -1,0 +1,119 @@
+.reviews
+  padding: 8px 0 48px
+  font-family: "Noto Sans", sans-serif
+  background: #F5FAFE
+
+  &__title
+    font-family: "Montserrat", sans-serif
+    font-style: normal
+    font-weight: 600
+    font-size: 42px
+    line-height: 51px
+    text-align: center
+    padding-top: 114px
+    margin-bottom: 65px
+    color: $standart
+
+    &-object
+      color: $dark_azure
+
+
+  &__stars
+    margin-right: -2px
+
+  &-slider
+    &__item
+      position: relative
+      display: flex
+      flex-direction: column
+      align-items: center
+      max-width: 730px
+      margin: 45px auto 0
+      background-color: #ffffff
+      border-radius: 8px
+      padding: 0 62px 30px
+
+      &:before
+        content: ''
+        position: absolute
+        left: 62px
+        top: 13px
+        width: 70px
+        height: 47px
+        background-image: url("../img/block-10/quote-left.svg")
+        background-repeat: no-repeat
+
+      &:after
+        content: ''
+        position: absolute
+        right: 62px
+        top: 118px
+        width: 70px
+        height: 47px
+        background-image: url("../img/block-10/quote-reght.svg")
+        background-repeat: no-repeat
+
+    &__button
+      position: absolute
+      top: 25%
+      transform: translateY(-50%)
+      width: 40px
+      height: 40px
+      background-repeat: no-repeat
+      background-size: 22px
+      background-position: center
+      border: none
+      background-color: transparent
+      cursor: pointer
+      z-index: 99
+
+      &--prev
+        background-image: url("../img/block-9/arrow-prev.svg")
+        left: 19px
+
+      &--next
+        background-image: url("../img/block-9/arrow-next.svg")
+        right: 19px
+
+    &__profile
+      display: flex
+      flex-direction: column
+      align-items: center
+      margin-top: -41px
+      margin-bottom: 26px
+
+    &__avatar
+      width: 90px
+      height: 90px
+      border-radius: 50%
+      object-fit: cover
+
+    &__username
+      font-style: normal
+      font-weight: 700
+      font-size: 12px
+      line-height: 15px
+      color: #ec1f46
+      margin: 10px 0 10px 6px
+
+    &__date
+      font-style: normal
+      font-weight: normal
+      font-size: 10px
+      line-height: 13px
+
+    &__raiteng
+      display: flex
+      align-items: center
+      margin-bottom: 3px
+
+    &__text
+      max-width: 537px
+      font-family: "Noto Sans", sans-serif
+      font-style: normal
+      font-weight: normal
+      font-size: 16px
+      line-height: 22px
+      text-align: justify
+      margin: auto 35px
+      z-index: 10

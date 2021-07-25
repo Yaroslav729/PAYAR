@@ -527,6 +527,126 @@
       <!-- /.container -->
     </section>
     <!-- /.team -->
+    <section class="reviews">
+      <div class="container">
+        <h2 class="reviews__title"><span class="reviews__title-object">Отзывы</span> довольных клиентов</h2>
+        <div class="swiper-container reviews-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="reviews-slider__item">
+                <div class="reviews-slider__profile">
+                  <img src="img/block-10/reviews-avatar.jpg" alt="Megan Fox" class="reviews-slider__avatar">
+                  <h3 class="reviews-slider__username">Наталья Евдокимова</h3>
+                  <span class="reviews-slider__date">Stayed 18 Nov, 2019</span>
+                  <div class="reviews-slider__rating">
+                    <img class="reviews__stars" src="img/block-10/star.svg" alt="star">
+                    <img class="reviews__stars" src="img/block-10/star.svg" alt="star">
+                    <img class="reviews__stars" src="img/block-10/star.svg" alt="star">
+                    <img class="reviews__stars" src="img/block-10/star.svg" alt="star">
+                    <img class="reviews__stars" src="img/block-10/star.svg" alt="star">
+                  </div>
+                  <!-- /.reviews-slider__rating-->
+                </div>
+                <!-- /.reviews-slider__profile -->
+                <p class="reviews-slider__text">
+                  Заказывала окна 3 года назад. Все прекрасно работает,
+                  в доме очень тепло. Дети часто залезают на подоконник - переживала за этот момент, но нигде не
+                  просело, щелочек нет, качество отлично.
+                  Предлагали 3 разных варианта, выбрала не сильно дорогую, но и не дешевую. Раз в год звонят и
+                  спрашивают, есть ли жалобы.
+                  Отличная компания, работают качественно и быстро, сервисом очень довольна. Спасибо!
+                </p>
+              </div>
+              <!-- /.reviews-slider__item -->
+            </div>
+            <!-- /.swiper-slide -->
+            <div class="swiper-slide">
+              <div class="reviews-slider__item">
+                <div class="reviews-slider__profile">
+                  <img src="img/block-10/reviews-avatar-2.jpg" alt="Jule" class="reviews-slider__avatar">
+                  <h3 class="reviews-slider__username">Jule</h3>
+                  <span class="reviews-slider__date">Stayed 18 Nov, 2019</span>
+                  <div class="reviews-slider__rating">
+                    <img class="reviews__stars" src="img/block-10/star.svg" alt="star">
+                    <img class="reviews__stars" src="img/block-10/star.svg" alt="star">
+                    <img class="reviews__stars" src="img/block-10/star.svg" alt="star">
+                    <img class="reviews__stars" src="img/block-10/star.svg" alt="star">
+                    <img class="reviews__stars" src="img/block-10/star.svg" alt="star">
+                  </div>
+                  <!-- /.reviews-slider__rating-->
+                </div>
+                <!-- /.reviews-slider__profile -->
+                <p class="reviews-slider__text">
+                  Заказал окна REHAU, качеством доволен!
+                  Окна устанавливали во всей квартире, работали быстро.
+                  С момента установки прошло 2 года, претензий нет, все отлично работает. Благодарю за работу!
+                </p>
+              </div>
+              <!-- /.reviews-slider__item -->
+            </div>
+            <!-- /.swiper-slide -->
+            <div class="swiper-slide">
+              <div class="reviews-slider__item">
+                <div class="reviews-slider__profile">
+                  <img src="img/block-10/reviews-avatar-3.jpg" alt="Sonya" class="reviews-slider__avatar">
+                  <h3 class="reviews-slider__username">Sonya</h3>
+                  <span class="reviews-slider__date">Stayed 18 Nov, 2019</span>
+                  <div class="reviews-slider__rating">
+                    <img class="reviews__stars" src="img/block-10/star.svg" alt="star">
+                    <img class="reviews__stars" src="img/block-10/star.svg" alt="star">
+                    <img class="reviews__stars" src="img/block-10/star.svg" alt="star">
+                    <img class="reviews__stars" src="img/block-10/star.svg" alt="star">
+                    <img class="reviews__stars" src="img/block-10/star.svg" alt="star">
+                  </div>
+                  <!-- /.reviews-slider__rating-->
+                </div>
+                <!-- /.reviews-slider__profile -->
+                <p class="reviews-slider__text">
+                  Заказывал установку окон в частный дом. Ребята приехали в день заказа, сделали замеры. Окна привезли
+                  через 4 дня,
+                  работу выполнили добротно, на уровне. Щелей нет, механизмы работают без нареканий, в доме очень тепло.
+                  Сервис пока
+                  не вызывал, но думаю через пару лет поменять расходники. Очень доволен!
+                </p>
+              </div>
+              <!-- /.reviews-slider__item -->
+            </div>
+            <!-- /.swiper-slide -->
+          </div>
+          <!-- /.swiper-wrapper -->
+          <!-- If we need pagination -->
+          <div class="swiper-pagination pagination-bullets swiper-pagination--media"></div>
+          <button class="reviews-slider__button reviews-slider__button--prev"></button>
+          <button class="reviews-slider__button reviews-slider__button--next"></button>
+        </div>
+        <!-- /.reviews-slider -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <h2 class="footer-title">Наши <span class="footer-title__object">контакты</span></h2>
+        <div class="footer-info">
+          <div class="footer-info__contact">
+            Адрес: г.Бердск, ул.Ленина, 69 офис 103
+            Часы работы с 10:00 до 18:00
+            +7 913 903 91 99
+          </div>
+          <!-- /.footer-info__contact -->
+          <div class="footer-info__map"></div>
+          <!-- /.footer-info__map -->
+        </div>
+        <!-- /.footer-info -->
+        <div class="footer-if">
+          Задать вопрос:
+
+        </div>
+        <!-- /.footer-if -->
+        <h2 class="footer-confidentiality">Политика конфиденциальности</h2>
+        <!-- /.footer-confidentiality -->
+      </div>
+      <!-- /.container -->
+    </footer>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>

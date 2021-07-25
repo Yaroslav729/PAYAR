@@ -64,7 +64,7 @@
       &__images
         margin-right: 40px
 
-  .swiper-container
+  .swiper-containerTeam
     width: 745px
 
   .swiper
@@ -307,7 +307,7 @@
         bottom: -1323px
         left: 29px
 
-  .swiper-container
+  .swiper-containerTeam
     width: 745px
 
   .slider
@@ -318,6 +318,13 @@
 
       &--prev
         left: 40px
+
+  .reviews
+    &__title
+      width: 750px
+      margin: 0 auto 65px
+    &-slider
+      width: 950px
 
 @media (max-width: 991px)
   .container
@@ -727,6 +734,40 @@
         left: 5px
         background-position: center
 
+  .reviews
+    &__title
+      width: 700px
+      font-size: 30px
+      line-height: 37px
+      padding-top: 92px
+
+    &-slider
+      width: 700px
+
+      &__item
+        width: 580px
+
+        &:before
+          display: none
+
+        &:after
+          display: none
+
+      &__text
+        font-size: 12px
+        line-height: 16px
+        margin: 0
+
+      &__button
+        width: 30px
+        height: 30px
+
+        &--next
+          right: -4px
+
+        &--prev
+          left: -4px
+
 @media (max-width: 767px)
   .container
     max-width: 576px
@@ -962,6 +1003,24 @@
       &--prev
         left: 5px
         background-position: center
+
+  .reviews
+    &__title
+      width: 500px
+
+    &-slider
+      width: 550px
+
+      &__item
+        width: 430px
+        padding: 0 30px 30px
+
+      &__button
+        &--next
+          right: -4px
+
+        &--prev
+          left: -4px
 
 @media (max-width: 576px)
   .container
@@ -1658,6 +1717,34 @@
         right: 0
         font-size: 12px
         line-height: 16px
+
+  .reviews
+    &__title
+      width: 300px
+      padding-top: 32px
+      font-size: 18px
+      line-height: 22px
+      margin-bottom: 40px
+
+    &-slider
+      width: 279px
+
+      &__item
+        width: 279px
+        padding: 0 30px 30px
+
+      &__button
+        display: none
+
+        &--next
+          right: -4px
+
+        &--prev
+          left: -4px
+
+    .pagination
+      &-bullets
+        bottom: 150px
 
 @media (max-width: 320px)
   .container
