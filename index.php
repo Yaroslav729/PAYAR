@@ -628,18 +628,42 @@
         <h2 class="footer-title">Наши <span class="footer-title__object">контакты</span></h2>
         <div class="footer-info">
           <div class="footer-info__contact">
-            Адрес: г.Бердск, ул.Ленина, 69 офис 103
-            Часы работы с 10:00 до 18:00
-            +7 913 903 91 99
+            <span class="footer-address"><img src="img/block-11/iconAddress.svg" alt="" class="footer-icon footer-icon--iconAddress ">
+            <span class="footer-text">Адрес: г.Бердск, ул.Ленина, 69 <span class="footer-text__bleak">офис 103</span><span class="footer-text__hidden">оф.103</span></span>
+              </span>
+            <span class="footer-clock">
+            <img src="img/block-11/iconClock.svg" alt="" class="footer-icon footer-icon--iconClock ">
+            <span class="footer-text">Часы работы с 10:00 до 18:00</span>
+              </span>
+            <span class="footer-telephone">
+            <img src="img/block-11/iconTelephone.svg" alt="" class="footer-icon footer-icon--iconTelephone ">
+            <a href="tel:+79139039199" class="footer-text">+7 913 903 91 99</a>
+            </span>
           </div>
           <!-- /.footer-info__contact -->
-          <div class="footer-info__map"></div>
+          <div class="footer-info__map">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A5a471d0f7fba194b233bf3dc2e1d076f6f3b4eb38d6e0aca4096355bd1fc5263&amp;source=constructor" width="641" height="330" frameborder="0" class="footer-info__map-yandex"></iframe>
+          </div>
           <!-- /.footer-info__map -->
         </div>
         <!-- /.footer-info -->
         <div class="footer-if">
-          Задать вопрос:
-
+          <span class="footer-if__title">Задать вопрос:</span>
+          <div class="footer-if__messenger">
+            <div class="footer-if__whatsapp">
+              <a href="#" class="footer-if__link footer-if__link-whatsapp">
+                <img src="img/block-8/iconWhatsapp.svg" alt="" class="footer-if__img-whatsapp">
+                Whatsapp
+              </a>
+            </div>
+            <div class="footer-if__telegram">
+              <a href="#" class="footer-if__link footer-if__link-telegram">
+                <img src="img/block-8/iconTelegram.svg" alt="" class="footer-if__img-telegram">
+                Telegram
+              </a>
+            </div>
+          </div>
+          <!-- /.footer-if__messenger -->
         </div>
         <!-- /.footer-if -->
         <h2 class="footer-confidentiality">Политика конфиденциальности</h2>

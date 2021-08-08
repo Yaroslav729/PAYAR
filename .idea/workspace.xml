@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b79dc1d-b3d0-4893-9c5c-5580d8305706" name="Default Changelist" comment="create: block-9, media-320">
-      <change afterPath="$PROJECT_DIR$/sass/block/_feedback.sass" afterDir="false" />
+    <list default="true" id="3b79dc1d-b3d0-4893-9c5c-5580d8305706" name="Default Changelist" comment="create: block-10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/block/_team.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/block/_team.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/block/_feedback.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/block/_feedback.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/block/_footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/block/_footer.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -98,7 +99,12 @@
       <workItem from="1627794976865" duration="10519000" />
       <workItem from="1628096663446" duration="3203000" />
       <workItem from="1628315845660" duration="17369000" />
-      <workItem from="1628408395628" duration="6225000" />
+      <workItem from="1628408395628" duration="11446000" />
+      <workItem from="1628924317758" duration="125000" />
+      <workItem from="1628925860898" duration="54000" />
+      <workItem from="1628925927681" duration="1012000" />
+      <workItem from="1629011318714" duration="1506000" />
+      <workItem from="1629013390655" duration="19269000" />
     </task>
     <task id="LOCAL-00001" summary="create: Block-3, media block-3">
       <created>1624649913323</created>
@@ -191,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627247232469</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="create: block-10">
+      <created>1628446101981</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1628446101981</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +236,11 @@
     <MESSAGE value="create: block-8, media" />
     <MESSAGE value="create: block-9, media" />
     <MESSAGE value="create: block-9, media-320" />
-    <option name="LAST_COMMIT_MESSAGE" value="create: block-9, media-320" />
+    <MESSAGE value="create: block-10" />
+    <option name="LAST_COMMIT_MESSAGE" value="create: block-10" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
