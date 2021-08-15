@@ -13,7 +13,7 @@
   </head>
   <body>
     <div class="fon">
-      <header class="navbar">
+      <header class="navbar navbar--fixed">
         <div class="container">
           <div class="navbar-top">
             <div class="navbar-top__left">
@@ -29,9 +29,9 @@
             </div>
             <!-- /.navbar-top__left -->
             <button class="menu-button navbar-top__menu-button">
-              <span class="menu-button__line"></span>
-              <span class="menu-button__line"></span>
-              <span class="menu-button__line"></span>
+              <span class="menu-button__line menu-button__lineOne"></span>
+              <span class="menu-button__line menu-button__lineToo"></span>
+              <span class="menu-button__line menu-button__lineThree"></span>
             </button>
           </div>
           <!-- /.navbar-top -->
@@ -40,11 +40,21 @@
         <div class="navbar-bottom">
           <div class="container container-bottom">
             <ul class="navbar-menu">
-              <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">О компании</a></li>
-              <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">Наши работы</a></li>
-              <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">Преимущества</a></li>
-              <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">Отзывы</a></li>
-              <li class="navbar-menu__item"><a href="#" class="navbar-menu__link">Контакты</a></li>
+              <li class="navbar-menu__item navbar-menu__item--visible"><a href="#" class="navbar-menu__link">О
+                  компании</a></li>
+              <li class="navbar-menu__item navbar-menu__item--visible"><a href="#" class="navbar-menu__link">Наши
+                  работы</a></li>
+              <li class="navbar-menu__item navbar-menu__item--visible"><a href="#" class="navbar-menu__link">Преимущества</a>
+              </li>
+              <li class="navbar-menu__item navbar-menu__item--visible"><a href="#" class="navbar-menu__link">Отзывы</a>
+              </li>
+              <li class="navbar-menu__item navbar-menu__item--visible">
+                <a href="#" class="navbar-menu__link">Контакты</a></li>
+              <div class="navbar-telephone">
+                <a href="tel:+79139039199" class="navbar-menu__telephone">
+                  <img src="img/mobile/iconTelephone.svg" alt="icon: home" class="navbar-menu__iconTelephone">
+                  +7 913 903 91 99</a>
+              </div>
             </ul>
             <!-- /.navbar-menu -->
           </div>

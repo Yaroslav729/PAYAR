@@ -69,3 +69,10 @@ var reviewsSwiper = new Swiper('.reviews-slider', {
     }
 });
 
+let menuButton = document.querySelector(".menu-button");
+    menuButton.addEventListener("click", function () {
+    document.querySelector(".navbar-menu").classList.toggle("navbar-menu--visible");
+    document.querySelector(".menu-button__lineOne").classList.toggle("menu-button__lineOne--visible");
+    document.querySelector(".menu-button__lineToo").classList.toggle("menu-button__lineToo--visible");
+    document.querySelector(".menu-button__lineThree").classList.toggle("menu-button__lineThree--visible");
+});

@@ -443,6 +443,18 @@ img {
   padding: 31px;
   width: 88%;
 }
+.navbar-menu__telephone {
+  display: none;
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+.navbar-menu__iconTelephone {
+  margin-right: 8px;
+}
 .navbar-menu__link {
   font-family: "Noto Sans", sans-serif;
   text-decoration: none;
@@ -2477,11 +2489,64 @@ img {
     width: 92%;
   }
 
+  body {
+    padding-top: 96px;
+  }
+
+  .navbar-telephone {
+    padding-right: 8px;
+  }
+  .navbar--fixed {
+    position: fixed;
+    background: #fff;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 99;
+  }
+  .navbar-button__close {
+    background-image: url("../img/mobile/close.svg");
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 66px;
+    top: 110px;
+    width: 30px;
+    height: 30px;
+  }
   .navbar__icon-telephone {
     display: none;
   }
   .navbar-menu {
     display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(39, 112, 144, 0.9);
+  }
+  .navbar-menu--visible {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 81px;
+    padding-right: 11px;
+  }
+  .navbar-menu__item--visible {
+    margin-bottom: 23px;
+  }
+  .navbar-menu__item--visible:nth-child(5) {
+    margin-bottom: 32px;
+  }
+  .navbar-menu__telephone {
+    display: block;
   }
 
   .telephone {
@@ -2496,7 +2561,7 @@ img {
     width: 30px;
     height: 30px;
     border: none;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 24.7%, rgba(255, 255, 255, 0.81) 31.05%, #FFFFFF 45.88%, #EFF0F0 100%);
+    background: #ffffff;
     cursor: pointer;
     margin-right: 10px;
     margin-top: 1px;
@@ -2506,6 +2571,18 @@ img {
     height: 4px;
     background-color: #333333;
     border-radius: 50px;
+  }
+  .menu-button__lineOne--visible {
+    background: #ffffff;
+    z-index: 110;
+  }
+  .menu-button__lineToo--visible {
+    background: #ffffff;
+    z-index: 110;
+  }
+  .menu-button__lineThree--visible {
+    background: #ffffff;
+    z-index: 110;
   }
 
   .offer-service {
@@ -2747,10 +2824,11 @@ img {
     width: 92%;
   }
 
-  .navbar-top {
-    margin-bottom: 207px;
+  body {
+    padding-top: 0;
   }
-  .navbar-top__text {
+
+  .navbar__text {
     font-size: 12px;
     line-height: 15px;
     width: 180px;
@@ -2768,6 +2846,7 @@ img {
   }
 
   .offer {
+    padding-top: 284px;
     margin-bottom: 70px;
   }
   .offer-container {
