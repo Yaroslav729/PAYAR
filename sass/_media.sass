@@ -791,6 +791,9 @@
   body
     padding-top: 96px
 
+  .lock
+    overflow: hidden
+
   .navbar
     &-telephone
       padding-right: 8px
@@ -803,16 +806,6 @@
       right: 0
       z-index: 99
 
-    &-button
-      &__close
-        background-image: url("../img/mobile/close.svg")
-        background-repeat: no-repeat
-        position: fixed
-        right: 66px
-        top: 110px
-        width: 30px
-        height: 30px
-
     &__icon-telephone
       display: none
 
@@ -821,7 +814,7 @@
       position: fixed
       left: 0
       right: 0
-      top: 0
+      top: 96px
       bottom: 0
       background: rgba(39, 112, 144, 0.9)
 
@@ -838,13 +831,13 @@
         margin: 0
         padding-top: 81px
         padding-right: 11px
+        overflow: auto
 
       &__item
-        &--visible
-          margin-bottom: 23px
+        margin-bottom: 23px
 
-        &--visible:nth-child(5)
-          margin-bottom: 32px
+      &__item:nth-child(5)
+        margin-bottom: 32px
 
       &__telephone
         display: block
@@ -871,21 +864,6 @@
         height: 4px
         background-color: #333333
         border-radius: 50px
-
-      &__lineOne
-        &--visible
-          background: #ffffff
-          z-index: 110
-
-      &__lineToo
-        &--visible
-          background: #ffffff
-          z-index: 110
-
-      &__lineThree
-        &--visible
-          background: #ffffff
-          z-index: 110
 
   .offer
     &-service

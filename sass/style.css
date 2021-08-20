@@ -1437,7 +1437,6 @@ img {
   width: 40px;
   height: 40px;
   border: none;
-  z-index: 99;
   cursor: pointer;
   background: none;
 }
@@ -2493,6 +2492,10 @@ img {
     padding-top: 96px;
   }
 
+  .lock {
+    overflow: hidden;
+  }
+
   .navbar-telephone {
     padding-right: 8px;
   }
@@ -2504,15 +2507,6 @@ img {
     right: 0;
     z-index: 99;
   }
-  .navbar-button__close {
-    background-image: url("../img/mobile/close.svg");
-    background-repeat: no-repeat;
-    position: fixed;
-    right: 66px;
-    top: 110px;
-    width: 30px;
-    height: 30px;
-  }
   .navbar__icon-telephone {
     display: none;
   }
@@ -2521,7 +2515,7 @@ img {
     position: fixed;
     left: 0;
     right: 0;
-    top: 0;
+    top: 96px;
     bottom: 0;
     background: rgba(39, 112, 144, 0.9);
   }
@@ -2538,11 +2532,12 @@ img {
     margin: 0;
     padding-top: 81px;
     padding-right: 11px;
+    overflow: auto;
   }
-  .navbar-menu__item--visible {
+  .navbar-menu__item {
     margin-bottom: 23px;
   }
-  .navbar-menu__item--visible:nth-child(5) {
+  .navbar-menu__item:nth-child(5) {
     margin-bottom: 32px;
   }
   .navbar-menu__telephone {
@@ -2571,18 +2566,6 @@ img {
     height: 4px;
     background-color: #333333;
     border-radius: 50px;
-  }
-  .menu-button__lineOne--visible {
-    background: #ffffff;
-    z-index: 110;
-  }
-  .menu-button__lineToo--visible {
-    background: #ffffff;
-    z-index: 110;
-  }
-  .menu-button__lineThree--visible {
-    background: #ffffff;
-    z-index: 110;
   }
 
   .offer-service {

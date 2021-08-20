@@ -40,16 +40,13 @@
         <div class="navbar-bottom">
           <div class="container container-bottom">
             <ul class="navbar-menu">
-              <li class="navbar-menu__item navbar-menu__item--visible"><a href="#" class="navbar-menu__link">О
-                  компании</a></li>
-              <li class="navbar-menu__item navbar-menu__item--visible"><a href="#" class="navbar-menu__link">Наши
-                  работы</a></li>
-              <li class="navbar-menu__item navbar-menu__item--visible"><a href="#" class="navbar-menu__link">Преимущества</a>
+              <li class="navbar-menu__item"><a href="#advantage" class="navbar-menu__link">Преимущества</a></li>
+              <li class="navbar-menu__item"><a href="#about" class="navbar-menu__link">О компании</a></li>
+              <li class="navbar-menu__item"><a href="#team" class="navbar-menu__link">Наша команда</a>
               </li>
-              <li class="navbar-menu__item navbar-menu__item--visible"><a href="#" class="navbar-menu__link">Отзывы</a>
+              <li class="navbar-menu__item navbar-menu__item--visible"><a href="#feedback" class="navbar-menu__link">Отзывы</a>
               </li>
-              <li class="navbar-menu__item navbar-menu__item--visible">
-                <a href="#" class="navbar-menu__link">Контакты</a></li>
+              <li class="navbar-menu__item navbar-menu__item--visible"><a href="#contact" class="navbar-menu__link">Контакты</a></li>
               <div class="navbar-telephone">
                 <a href="tel:+79139039199" class="navbar-menu__telephone">
                   <img src="img/mobile/iconTelephone.svg" alt="icon: home" class="navbar-menu__iconTelephone">
@@ -358,7 +355,7 @@
       </div>
       <!-- /.search__background -->
     </section>
-    <section class="benefit">
+    <section class="benefit" id="advantage">
       <div class="container">
         <div class="benefit-wrapper">
           <h2 class="benefit-wrapper__title"><span class="benefit-wrapper__title-object">Преимущества</span> работы с
@@ -405,7 +402,7 @@
       <!-- /.container -->
     </section>
     <!-- /.benefit -->
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <div class="about-wrapper">
           <h2 class="about-wrapper__title">
@@ -482,7 +479,7 @@
       <!-- /.container -->
     </section>
     <!-- /.about -->
-    <section class="team">
+    <section class="team" id="team">
       <div class="container">
         <h2 class="team-title">Наша <span class="team-title__object">команда</span></h2>
         <!-- Slider main container -->
@@ -537,7 +534,7 @@
       <!-- /.container -->
     </section>
     <!-- /.team -->
-    <section class="reviews">
+    <section class="reviews" id="feedback">
       <div class="container">
         <h2 class="reviews__title"><span class="reviews__title-object">Отзывы</span> довольных клиентов</h2>
         <div class="swiper-container reviews-slider">
@@ -633,7 +630,7 @@
       </div>
       <!-- /.container -->
     </section>
-    <footer class="footer">
+    <footer class="footer" id="contact">
       <div class="container">
         <h2 class="footer-title">Наши <span class="footer-title__object">контакты</span></h2>
         <div class="footer-info">

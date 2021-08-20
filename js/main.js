@@ -69,10 +69,29 @@ var reviewsSwiper = new Swiper('.reviews-slider', {
     }
 });
 
+// Мобильное меню
+let navbarMenu = document.querySelector(".navbar-menu");
+    navbarMenu.addEventListener("click", function (){
+});
 let menuButton = document.querySelector(".menu-button");
     menuButton.addEventListener("click", function () {
     document.querySelector(".navbar-menu").classList.toggle("navbar-menu--visible");
-    document.querySelector(".menu-button__lineOne").classList.toggle("menu-button__lineOne--visible");
-    document.querySelector(".menu-button__lineToo").classList.toggle("menu-button__lineToo--visible");
-    document.querySelector(".menu-button__lineThree").classList.toggle("menu-button__lineThree--visible");
+    document.querySelector("body").classList.toggle("lock");
 });
+    
+    // Плавная прокрутка
+const anchors = document.querySelectorAll('a[href*="#"]')
+for (let anchor of anchors) {
+    anchor.addEventListener("click", function (event){
+        event.preventDefault();
+        if (navbarMenu.classList.contains('navbar-menu--visible')) {
+            document.body.classList.remove('lock');
+            navbarMenu.classList.remove('navbar-menu--visible');
+        }
+        const blockID = anchor.getAttribute('href')
+        document.querySelector('' + blockID).scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        })
+    })
+}
