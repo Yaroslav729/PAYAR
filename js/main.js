@@ -71,10 +71,11 @@ var reviewsSwiper = new Swiper('.reviews-slider', {
 
 // Мобильное меню
 let navbarMenu = document.querySelector(".navbar-menu");
-    navbarMenu.addEventListener("click", function (){
-});
 let menuButton = document.querySelector(".menu-button");
     menuButton.addEventListener("click", function () {
+    document.querySelector(".menu-button__lineOne").classList.toggle("menu-button__lineOne--visible");
+    document.querySelector(".menu-button__lineToo").classList.toggle("menu-button__lineToo--visible");
+    document.querySelector(".menu-button__lineThree").classList.toggle("menu-button__lineThree--visible");
     document.querySelector(".navbar-menu").classList.toggle("navbar-menu--visible");
     document.querySelector("body").classList.toggle("lock");
 });
@@ -83,6 +84,9 @@ let menuButton = document.querySelector(".menu-button");
 const anchors = document.querySelectorAll('a[href*="#"]')
 for (let anchor of anchors) {
     anchor.addEventListener("click", function (event){
+        document.querySelector(".menu-button__lineOne").classList.toggle("menu-button__lineOne--visible");
+        document.querySelector(".menu-button__lineToo").classList.toggle("menu-button__lineToo--visible");
+        document.querySelector(".menu-button__lineThree").classList.toggle("menu-button__lineThree--visible");
         event.preventDefault();
         if (navbarMenu.classList.contains('navbar-menu--visible')) {
             document.body.classList.remove('lock');
@@ -95,3 +99,40 @@ for (let anchor of anchors) {
         })
     })
 }
+
+// Скролл вверх
+
+const offset = 100;
+const scrollUp = document.querySelector('.scroll-up');
+const scrollUpSvgPath = document.querySelector('.scroll-up__svg-path')
+const pathLength = scrollUpSvgPath.getTotalLength();
+
+scrollUpSvgPath.style.strokeDasharray = `${pathLength} ${pathLength}`;
+scrollUpSvgPath.style.transition = 'stoke-dashoffset 20ms';
+
+const getTop = () => window.pageYOffset || document.documentElement.scrollTop;
+// updateDashoffset
+const updateDashoffset = () => {
+    const height = document.documentElement.scrollHeight - window.innerHeight;
+    const dashoffset = pathLength - (getTop() * pathLength / height);
+
+    scrollUpSvgPath.style.strokeDashoffset = dashoffset;
+};
+
+// onScroll
+window.addEventListener('scroll', () => {
+    updateDashoffset();
+    if (getTop() > offset) {
+        scrollUp.classList.add('scroll-up--active');
+    } else {
+    scrollUp.classList.remove('scroll-up--active');
+    }
+});
+
+// click
+scrollUp.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});

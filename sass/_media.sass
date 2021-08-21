@@ -813,10 +813,11 @@
       display: none
       position: fixed
       left: 0
-      right: 0
-      top: 96px
-      bottom: 0
+      width: 100%
+      top: 0
+      height: 100%
       background: rgba(39, 112, 144, 0.9)
+
 
       &--visible
         display: block
@@ -840,7 +841,7 @@
         margin-bottom: 32px
 
       &__telephone
-        display: block
+        display: inline-block
 
   .telephone
     display: none
@@ -864,6 +865,26 @@
         height: 4px
         background-color: #333333
         border-radius: 50px
+        transition: all 0.3s ease 0s
+
+      &__lineOne--visible
+        position: absolute
+        transform: rotate(45deg)
+        bottom: 47px
+        background-color: #ffffff
+        z-index: 10
+
+      &__lineToo--visible
+        position: absolute
+        transform: rotate(-45deg)
+        top: 45px
+        background-color: #ffffff
+        z-index: 10
+
+
+      &__lineThree--visible
+        transform: scale(0)
+
 
   .offer
     &-service
@@ -1115,10 +1136,17 @@
     padding-top: 0
 
   .navbar
-    &__text
-      font-size: 12px
-      line-height: 15px
-      width: 180px
+    &-top
+      &__text
+        font-size: 11px
+        line-height: 15px
+        width: 180px
+
+  .menu
+    &-button
+      &__lineOne
+        &--visible
+          bottom: 28px
 
   .logo
     &__img
@@ -1913,13 +1941,6 @@
   .container
     max-width: 282px
     width: 92%
-
-  .navbar
-    &-top
-      &__text
-        font-size: 11px
-        line-height: 15px
-        width: 180px
 
   .logo
     &__img

@@ -47,11 +47,11 @@
               <li class="navbar-menu__item navbar-menu__item--visible"><a href="#feedback" class="navbar-menu__link">Отзывы</a>
               </li>
               <li class="navbar-menu__item navbar-menu__item--visible"><a href="#contact" class="navbar-menu__link">Контакты</a></li>
-              <div class="navbar-telephone">
+              <li class="navbar-telephone">
                 <a href="tel:+79139039199" class="navbar-menu__telephone">
                   <img src="img/mobile/iconTelephone.svg" alt="icon: home" class="navbar-menu__iconTelephone">
                   +7 913 903 91 99</a>
-              </div>
+              </li>
             </ul>
             <!-- /.navbar-menu -->
           </div>
@@ -678,6 +678,18 @@
       </div>
       <!-- /.container -->
     </footer>
+    <div class="scroll-up">
+      <svg class="scroll-up__svg" viewBox="-2 -2 52 52">
+        <path
+              class="scroll-up__svg-path" d="
+              M24,0
+              a24,24 0 0,1 0,48
+              a24,24 0 0,1 0,-48
+            "
+        />
+      </svg>
+    </div>
+<!--    <a class="back-to-top" id="back-to-top"></a>-->
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
