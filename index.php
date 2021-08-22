@@ -46,7 +46,8 @@
               </li>
               <li class="navbar-menu__item navbar-menu__item--visible"><a href="#feedback" class="navbar-menu__link">Отзывы</a>
               </li>
-              <li class="navbar-menu__item navbar-menu__item--visible"><a href="#contact" class="navbar-menu__link">Контакты</a></li>
+              <li class="navbar-menu__item navbar-menu__item--visible"><a href="#contact" class="navbar-menu__link">Контакты</a>
+              </li>
               <li class="navbar-telephone">
                 <a href="tel:+79139039199" class="navbar-menu__telephone">
                   <img src="img/mobile/iconTelephone.svg" alt="icon: home" class="navbar-menu__iconTelephone">
@@ -90,13 +91,15 @@
               <div class="form__frame offer__form-frame">
                 <div class="form__border offer__form-border">
                   <h3 class="form__text offer__form-text">Заполните форму</h3>
-                  <input type="text" class="form__name offer__form-name" placeholder="Ваше Имя">
-                  <input type="tel" class="form__phone offer__form-phone" placeholder="Ваш телефон">
-                  <button class="button button-offer">Получить консультацию</button>
-                  <p class="form__understanding">
-                    Нажимая на кнопку, вы даете согласие на обработку&nbsp;персональных данных и соглашаетесь
-                    c&nbsp;<span class="form__understanding-text">политикой&nbsp;конфиденциальности.</span>
-                  </p>
+                  <form>
+                    <input type="text" class="form__name offer__form-name" placeholder="Ваше Имя" name="name">
+                    <input type="tel" class="form__phone offer__form-phone" placeholder="Ваш телефон" name="phone">
+                    <button class="button button-offer">Получить консультацию</button>
+                    <p class="form__understanding">
+                      Нажимая на кнопку, вы даете согласие на обработку&nbsp;персональных данных и соглашаетесь
+                      c&nbsp;<span class="form__understanding-text">политикой&nbsp;конфиденциальности.</span>
+                    </p>
+                  </form>
                 </div>
                 <!-- /.form__border -->
               </div>
@@ -117,59 +120,62 @@
             <h2 class="quiz-keepsake__text">Пройдите <span class="quiz-keepsake__text-information">опрос</span> и мы
               сделаем вам подарок!</h2>
           </div>
-          <div class="quiz-interview">
-            <ul class="quiz-interview__choice">
-              <li class="quiz-interview__if-one">
-                <p class="quiz-interview__if-text">1. Какой цвет окна Вам подойдёт?</p>
-                <img src="img/block-2/window-white.svg" alt="" class="quiz-interview__window-white">
-                <img src="img/block-2/window-gray.svg" alt="" class="quiz-interview__window-gray">
-                <img src="img/block-2/window-brown.svg" alt="" class="quiz-interview__window-brown">
-              </li>
-              <li class="quiz-interview__color">
-                <input type="checkbox" id="check-1" class="quiz-interview__checkbox-color">
-                <label for="check-1" class="quiz-interview__checkbox-white">Белый</label>
-              </li>
-              <li class="quiz-interview__color">
-                <input type="checkbox" id="check-2" class="quiz-interview__checkbox-color">
-                <label for="check-2" class="quiz-interview__checkbox-gray">Серый</label>
-              </li>
-              <li class="quiz-interview__color">
-                <input type="checkbox" id="check-3" class="quiz-interview__checkbox-color">
-                <label for="check-3" class="quiz-interview__checkbox-brown">Коричневый</label>
-              </li>
-              <li class="quiz-interview__if-too">
-                <p class="quiz-interview__if-text__nesting">2. Нужен ли Вам монтаж окон?</p>
-                <input type="checkbox" id="check-4" class="quiz-interview__checkbox">
-                <label for="check-4" class="quiz-interview__checkbox-yes">Да</label>
-                <input type="checkbox" id="check-5" class="quiz-interview__checkbox">
-                <label for="check-5" class="quiz-interview__checkbox-no">Нет</label>
-              </li>
-              <li class="quiz-interview__if-three">
-                <p class="quiz-interview__if-text__nesting">3. Нужен ли Вам демонтаж старого окна?</p>
-                <input type="checkbox" id="check-6" class="quiz-interview__checkbox">
-                <label for="check-6" class="quiz-interview__checkbox-yes">Да</label>
-                <input type="checkbox" id="check-7" class="quiz-interview__checkbox">
-                <label for="check-7" class="quiz-interview__checkbox-no">Нет</label>
-              </li>
-              <li class="quiz-interview__if-four">
-                <p class="quiz-interview__if-text__nesting">4. Нужна ли вам внутренняя отделка окна?</p>
-                <input type="checkbox" id="check-8" class="quiz-interview__checkbox">
-                <label for="check-8" class="quiz-interview__checkbox-yes">Да</label>
-                <input type="checkbox" id="check-9" class="quiz-interview__checkbox">
-                <label for="check-9" class="quiz-interview__checkbox-no">Нет</label>
-              </li>
-              <li class="quiz-interview__if-five">
-                <p class="quiz-interview__if-text__nesting">5. Планируете устанавливать окно в&nbsp;течении месяца?</p>
-                <input type="checkbox" id="check-10" class="quiz-interview__checkbox">
-                <label for="check-10" class="quiz-interview__checkbox-yes">Да</label>
-                <input type="checkbox" id="check-11" class="quiz-interview__checkbox">
-                <label for="check-11" class="quiz-interview__checkbox-no">Нет</label>
-              </li>
-            </ul>
-            <input type="tel" class="quiz-interview__phone" placeholder="Ваш телефон">
-            <button class="button button-quiz">Получить подарок</button>
-          </div>
-          <!-- /.quiz-interview -->
+          <form>
+            <div class="quiz-interview">
+              <ul class="quiz-interview__choice">
+                <li class="quiz-interview__if-one">
+                  <p class="quiz-interview__if-text">1. Какой цвет окна Вам подойдёт?</p>
+                  <img src="img/block-2/window-white.svg" alt="" class="quiz-interview__window-white">
+                  <img src="img/block-2/window-gray.svg" alt="" class="quiz-interview__window-gray">
+                  <img src="img/block-2/window-brown.svg" alt="" class="quiz-interview__window-brown">
+                </li>
+                <li class="quiz-interview__color">
+                  <input type="checkbox" id="check-1" class="quiz-interview__checkbox-color">
+                  <label for="check-1" class="quiz-interview__checkbox-white">Белый</label>
+                </li>
+                <li class="quiz-interview__color">
+                  <input type="checkbox" id="check-2" class="quiz-interview__checkbox-color">
+                  <label for="check-2" class="quiz-interview__checkbox-gray">Серый</label>
+                </li>
+                <li class="quiz-interview__color">
+                  <input type="checkbox" id="check-3" class="quiz-interview__checkbox-color">
+                  <label for="check-3" class="quiz-interview__checkbox-brown">Коричневый</label>
+                </li>
+                <li class="quiz-interview__if-too">
+                  <p class="quiz-interview__if-text__nesting">2. Нужен ли Вам монтаж окон?</p>
+                  <input type="checkbox" id="check-4" class="quiz-interview__checkbox">
+                  <label for="check-4" class="quiz-interview__checkbox-yes">Да</label>
+                  <input type="checkbox" id="check-5" class="quiz-interview__checkbox">
+                  <label for="check-5" class="quiz-interview__checkbox-no">Нет</label>
+                </li>
+                <li class="quiz-interview__if-three">
+                  <p class="quiz-interview__if-text__nesting">3. Нужен ли Вам демонтаж старого окна?</p>
+                  <input type="checkbox" id="check-6" class="quiz-interview__checkbox">
+                  <label for="check-6" class="quiz-interview__checkbox-yes">Да</label>
+                  <input type="checkbox" id="check-7" class="quiz-interview__checkbox">
+                  <label for="check-7" class="quiz-interview__checkbox-no">Нет</label>
+                </li>
+                <li class="quiz-interview__if-four">
+                  <p class="quiz-interview__if-text__nesting">4. Нужна ли вам внутренняя отделка окна?</p>
+                  <input type="checkbox" id="check-8" class="quiz-interview__checkbox">
+                  <label for="check-8" class="quiz-interview__checkbox-yes">Да</label>
+                  <input type="checkbox" id="check-9" class="quiz-interview__checkbox">
+                  <label for="check-9" class="quiz-interview__checkbox-no">Нет</label>
+                </li>
+                <li class="quiz-interview__if-five">
+                  <p class="quiz-interview__if-text__nesting">5. Планируете устанавливать окно в&nbsp;течении
+                    месяца?</p>
+                  <input type="checkbox" id="check-10" class="quiz-interview__checkbox">
+                  <label for="check-10" class="quiz-interview__checkbox-yes">Да</label>
+                  <input type="checkbox" id="check-11" class="quiz-interview__checkbox">
+                  <label for="check-11" class="quiz-interview__checkbox-no">Нет</label>
+                </li>
+              </ul>
+              <input type="tel" class="quiz-interview__phone" placeholder="Ваш телефон" name="phone">
+              <button class="button button-quiz">Получить подарок</button>
+            </div>
+            <!-- /.quiz-interview -->
+          </form>
           <!-- /.quiz-keepsake -->
 
         </div>
@@ -337,13 +343,15 @@
               <div class="form__border search__form-border">
                 <h3 class="form__text search__form-text">Оставьте заявку на замер прямо сейчас!</h3>
                 <h3 class="search__form-text-mb">Заполните форму</h3>
-                <input type="text" class="form__name search__form-name" placeholder="Ваше Имя">
-                <input type="tel" class="form__phone search__form-phone" placeholder="Ваш телефон">
-                <button class="button search__button">Получить консультацию</button>
-                <p class="form__understanding search__form-understanding">
-                  Нажимая на кнопку, вы даете согласие на обработку&nbsp;персональных данных и соглашаетесь
-                  c&nbsp;<span class="form__understanding-text">политикой&nbsp;конфиденциальности.</span>
-                </p>
+                <form>
+                  <input type="text" class="form__name search__form-name" placeholder="Ваше Имя" name="name">
+                  <input type="tel" class="form__phone search__form-phone" placeholder="Ваш телефон" name="phone">
+                  <button class="button search__button">Получить консультацию</button>
+                  <p class="form__understanding search__form-understanding">
+                    Нажимая на кнопку, вы даете согласие на обработку&nbsp;персональных данных и соглашаетесь
+                    c&nbsp;<span class="form__understanding-text">политикой&nbsp;конфиденциальности.</span>
+                  </p>
+                </form>
               </div>
               <!-- /.form__border -->
             </div>
@@ -681,7 +689,7 @@
     <div class="scroll-up">
       <svg class="scroll-up__svg" viewBox="-2 -2 52 52">
         <path
-              class="scroll-up__svg-path" d="
+          class="scroll-up__svg-path" d="
               M24,0
               a24,24 0 0,1 0,48
               a24,24 0 0,1 0,-48
@@ -689,9 +697,9 @@
         />
       </svg>
     </div>
-<!--    <a class="back-to-top" id="back-to-top"></a>-->
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/ajax.js"></script>
   </body>
 </html>
 
