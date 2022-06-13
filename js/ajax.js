@@ -1,9 +1,7 @@
 const forms = document.querySelectorAll('form');
 
 const message = {
-    loading: 'Загрузка',
-    success: 'Спасибо! Скоро мы с вами свяжемся',
-    failure: 'Что-то пошло не так...'
+    loading: 'img/form/spinner.svg'
 };
 
 forms.forEach(item => {
@@ -14,9 +12,12 @@ function postData(form) {
     form.addEventListener('submit', (e) => {
         e.preventDefault();
 
-        const statusMessage = document.createElement('div');
-        statusMessage.classList.add('status');
-        statusMessage.textContent = message.loading;
+        const statusMessage = document.createElement('img');
+        statusMessage.src = message.loading;
+        statusMessage.style.cssText = `
+               display: block;
+               margin: 0 auto;
+        `;
         form.append(statusMessage);
 
         const request = new XMLHttpRequest();
@@ -37,14 +38,29 @@ function postData(form) {
         request.addEventListener('load', () => {
             if (request.status === 200) {
                 console.log(request.response);
-                statusMessage.textContent = message.success;
+                swal("Спасибо!", "Скоро мы с вами свяжемся", "success");
                 form.reset();
                 setTimeout(() => {
                     statusMessage.remove();
                 }, 2000);
             } else {
-                statusMessage.textContent = message.failure;
+                swal("Ой!", "Что-то пошло не так...", "error");
             }
-        })
+        });
     });
 }
+
+function showThanks(message) {
+
+    const thanksModal = document.createElement('div');
+    thanksModal.classList.add('inputForm');
+    thanksModal.innerHTML = `
+    <div class="input">
+    <div class="formText">${message}</div>
+    </div>
+`;
+
+    document.querySelector('.form').append(thanksModal);
+}
+
+

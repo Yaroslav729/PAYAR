@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9da387ed-5099-41c6-8713-1501617d2473" name="Changes" comment="create: scroll Up">
-      <change afterPath="$PROJECT_DIR$/js/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send.php" afterDir="false" />
+    <list default="true" id="bc9d5e9d-64c9-47cb-9e88-d617cca61753" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sass/block/_formModal.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/form.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/send.php" beforeDir="false" afterPath="$PROJECT_DIR$/send.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,63 +23,47 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectId" id="1x3N9NXkbs7oH24DfNjfNz0WZhK" />
+  <component name="ProjectId" id="25sWumU0YeFXpiHIhpQM0xCB5tF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
-    <property name="vue.rearranger.settings.migration" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bin/php/php7.4.0/php.exe" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9da387ed-5099-41c6-8713-1501617d2473" name="Changes" comment="" />
-      <created>1629579659891</created>
+      <changelist id="bc9d5e9d-64c9-47cb-9e88-d617cca61753" name="Default Changelist" comment="" />
+      <created>1646316498954</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1629579659891</updated>
-      <workItem from="1629579661128" duration="121000" />
-      <workItem from="1629613560572" duration="24675000" />
-      <workItem from="1629962263537" duration="21440000" />
+      <updated>1646316498954</updated>
+      <workItem from="1646316500109" duration="197000" />
+      <workItem from="1649616504558" duration="113000" />
     </task>
-    <task id="LOCAL-00001" summary="create: scroll Up">
-      <created>1629660630219</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1629660630219</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="create: scroll Up" />
-    <option name="LAST_COMMIT_MESSAGE" value="create: scroll Up" />
+  <component name="WindowStateProjectService">
+    <state x="43" y="174" key="#CLI_Interpreters" timestamp="1646316648158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="43" y="174" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1646316648158" />
+    <state x="170" y="162" key="#PHP" timestamp="1646316656022">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="170" y="162" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1646316656022" />
+    <state x="243" y="274" key="FileChooserDialogImpl" timestamp="1649616612938">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="243" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1649616612938" />
   </component>
 </project>
