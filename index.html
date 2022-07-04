@@ -12,6 +12,21 @@
     <link rel="stylesheet" href="sass/style.css">
   </head>
   <body>
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+      m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(89367127, "init", {
+      clickmap:true,
+      trackLinks:true,
+      accurateTrackBounce:true,
+      webvisor:true
+    });
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/89367127" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
     <div class="fon">
       <header class="navbar navbar--fixed">
         <div class="container">
@@ -91,7 +106,7 @@
               <div class="form__frame offer__form-frame">
                 <div class="form__border offer__form-border">
                   <h3 class="form__text offer__form-text">Заполните форму</h3>
-                  <form>
+                  <form data-value-name="ПАЯР">
                     <input type="text" class="form__name offer__form-name" placeholder="Ваше Имя" name="name">
                     <input type="tel" class="form__phone offer__form-phone" placeholder="Ваш телефон" name="phone">
                     <button class="button button-offer">Получить консультацию</button>
@@ -120,7 +135,7 @@
             <h2 class="quiz-keepsake__text">Пройдите <span class="quiz-keepsake__text-information">опрос</span> и мы
               сделаем вам подарок!</h2>
           </div>
-          <form>
+          <form data-value-name="ПАЯР">
             <div class="quiz-interview">
               <ul class="quiz-interview__choice">
                 <li class="quiz-interview__if-one">
@@ -130,44 +145,44 @@
                   <img src="img/block-2/window-brown.svg" alt="" class="quiz-interview__window-brown">
                 </li>
                 <li class="quiz-interview__color">
-                  <input type="checkbox" id="check-1" class="quiz-interview__checkbox-color">
+                  <input type="checkbox" name="color" value="Белый" id="check-1" class="quiz-interview__checkbox-color">
                   <label for="check-1" class="quiz-interview__checkbox-white">Белый</label>
                 </li>
                 <li class="quiz-interview__color">
-                  <input type="checkbox" id="check-2" class="quiz-interview__checkbox-color">
+                  <input type="checkbox" name="color"  value="Серый" id="check-2" class="quiz-interview__checkbox-color">
                   <label for="check-2" class="quiz-interview__checkbox-gray">Серый</label>
                 </li>
                 <li class="quiz-interview__color">
-                  <input type="checkbox" id="check-3" class="quiz-interview__checkbox-color">
+                  <input type="checkbox" name="color" value="Коричневый" id="check-3" class="quiz-interview__checkbox-color">
                   <label for="check-3" class="quiz-interview__checkbox-brown">Коричневый</label>
                 </li>
                 <li class="quiz-interview__if-too">
                   <p class="quiz-interview__if-text__nesting">2. Нужен ли Вам монтаж окон?</p>
-                  <input type="checkbox" id="check-4" class="quiz-interview__checkbox">
+                  <input type="radio" name="mount" id="check-4" value="1" class="quiz-interview__checkbox">
                   <label for="check-4" class="quiz-interview__checkbox-yes">Да</label>
-                  <input type="checkbox" id="check-5" class="quiz-interview__checkbox">
-                  <label for="check-5" class="quiz-interview__checkbox-no">Нет</label>
+                  <input type="radio" name="mount" id="check-5" value="0" class="quiz-interview__checkbox">
+                  <label for="check-5"  class="quiz-interview__checkbox-no">Нет</label>
                 </li>
                 <li class="quiz-interview__if-three">
                   <p class="quiz-interview__if-text__nesting">3. Нужен ли Вам демонтаж старого окна?</p>
-                  <input type="checkbox" id="check-6" class="quiz-interview__checkbox">
+                  <input type="radio" name="unmount" id="check-6" value="1" class="quiz-interview__checkbox">
                   <label for="check-6" class="quiz-interview__checkbox-yes">Да</label>
-                  <input type="checkbox" id="check-7" class="quiz-interview__checkbox">
+                  <input type="radio" name="unmount" id="check-7" value="0" class="quiz-interview__checkbox">
                   <label for="check-7" class="quiz-interview__checkbox-no">Нет</label>
                 </li>
                 <li class="quiz-interview__if-four">
                   <p class="quiz-interview__if-text__nesting">4. Нужна ли вам внутренняя отделка окна?</p>
-                  <input type="checkbox" id="check-8" class="quiz-interview__checkbox">
+                  <input type="radio" name="windowTrim" id="check-8" value="1" class="quiz-interview__checkbox">
                   <label for="check-8" class="quiz-interview__checkbox-yes">Да</label>
-                  <input type="checkbox" id="check-9" class="quiz-interview__checkbox">
+                  <input type="radio" name="windowTrim" id="check-9" value="0" class="quiz-interview__checkbox">
                   <label for="check-9" class="quiz-interview__checkbox-no">Нет</label>
                 </li>
                 <li class="quiz-interview__if-five">
                   <p class="quiz-interview__if-text__nesting">5. Планируете устанавливать окно в&nbsp;течении
                     месяца?</p>
-                  <input type="checkbox" id="check-10" class="quiz-interview__checkbox">
+                  <input type="radio" name="month" id="check-10" value="1" class="quiz-interview__checkbox">
                   <label for="check-10" class="quiz-interview__checkbox-yes">Да</label>
-                  <input type="checkbox" id="check-11" class="quiz-interview__checkbox">
+                  <input type="radio" name="month" id="check-11" value="0" class="quiz-interview__checkbox">
                   <label for="check-11" class="quiz-interview__checkbox-no">Нет</label>
                 </li>
               </ul>
@@ -343,7 +358,7 @@
               <div class="form__border search__form-border">
                 <h3 class="form__text search__form-text">Оставьте заявку на замер прямо сейчас!</h3>
                 <h3 class="search__form-text-mb">Заполните форму</h3>
-                <form>
+                <form data-value-name="ПАЯР">
                   <input type="text" class="form__name search__form-name" placeholder="Ваше Имя" name="name">
                   <input type="tel" class="form__phone search__form-phone" placeholder="Ваш телефон" name="phone">
                   <button class="button search__button">Получить консультацию</button>
@@ -459,7 +474,7 @@
               </div>
               <div class="about-arguments__blocks-connection">
                 <div class="about-arguments__blocks-connection__whatsapp">
-                  <a href="#" class="about-arguments__link">
+                  <a href="https://wa.me/89139039199" class="about-arguments__link" target="_blank">
                     <img src="img/block-8/iconWhatsapp.svg" alt="" class="about-arguments__img-whatsapp">
                     Whatsapp
                   </a>
@@ -471,7 +486,7 @@
                   </a>
                 </div>
                 <div class="about-arguments__blocks-connection__telegram">
-                  <a href="#" class="about-arguments__link">
+                  <a href="https://t.me/JS_Yaroslav" class="about-arguments__link" target="_blank">
                     <img src="img/block-8/iconTelegram.svg" alt="" class="about-arguments__img-telegram">
                     Telegram
                   </a>
@@ -500,13 +515,13 @@
             <div class="swiper-wrapper">
               <!-- Slides -->
               <div class="swiper-slide">
-                <div class="swiper-slide__name swiper-slide__name--active">Зверков Алексей Владимирович</div>
-                <img src="img/block-9/katunin.png" alt="" class="swiper-slide__people">
+                <div class="swiper-slide__name swiper-slide__name--active">Лушников Павел ВЛадимирович</div>
+                <img src="img/block-9/Big_bos.png" alt="" class="swiper-slide__people">
                 <img src="img/block-9/lushnikov.png" alt="" class="swiper-slide__certificate">
               </div>
               <div class="swiper-slide">
-                <div class="swiper-slide__name">Зверков Алексей Владимирович</div>
-                <img src="img/block-9/katunin.png" alt="" class="swiper-slide__people">
+                <div class="swiper-slide__name">Наталья</div>
+                <img src="img/block-9/Natasha.png" alt="" class="swiper-slide__people">
                 <img src="img/block-9/byneev.png" alt="" class="swiper-slide__certificate">
               </div>
               <div class="swiper-slide">
@@ -550,9 +565,9 @@
             <div class="swiper-slide">
               <div class="reviews-slider__item">
                 <div class="reviews-slider__profile">
-                  <img src="img/block-10/reviews-avatar.jpg" alt="Megan Fox" class="reviews-slider__avatar">
-                  <h3 class="reviews-slider__username">Наталья Евдокимова</h3>
-                  <span class="reviews-slider__date">Stayed 18 Nov, 2019</span>
+                  <img src="img/block-10/Anna.png" alt="Megan Fox" class="reviews-slider__avatar">
+                  <h3 class="reviews-slider__username">Анна Васильева</h3>
+                  <span class="reviews-slider__date"> 18 ноября 2019</span>
                   <div class="reviews-slider__rating">
                     <img class="reviews__stars" src="img/block-10/star.svg" alt="star">
                     <img class="reviews__stars" src="img/block-10/star.svg" alt="star">
@@ -578,9 +593,9 @@
             <div class="swiper-slide">
               <div class="reviews-slider__item">
                 <div class="reviews-slider__profile">
-                  <img src="img/block-10/reviews-avatar-2.jpg" alt="Jule" class="reviews-slider__avatar">
-                  <h3 class="reviews-slider__username">Jule</h3>
-                  <span class="reviews-slider__date">Stayed 18 Nov, 2019</span>
+                  <img src="img/block-10/Yaroslav.png" alt="Jule" class="reviews-slider__avatar">
+                  <h3 class="reviews-slider__username">Ярослав Шишкин</h3>
+                  <span class="reviews-slider__date">29 мая, 2021</span>
                   <div class="reviews-slider__rating">
                     <img class="reviews__stars" src="img/block-10/star.svg" alt="star">
                     <img class="reviews__stars" src="img/block-10/star.svg" alt="star">
@@ -603,9 +618,9 @@
             <div class="swiper-slide">
               <div class="reviews-slider__item">
                 <div class="reviews-slider__profile">
-                  <img src="img/block-10/reviews-avatar-3.jpg" alt="Sonya" class="reviews-slider__avatar">
-                  <h3 class="reviews-slider__username">Sonya</h3>
-                  <span class="reviews-slider__date">Stayed 18 Nov, 2019</span>
+                  <img src="img/block-10/Ivan.png" alt="Sonya" class="reviews-slider__avatar">
+                  <h3 class="reviews-slider__username">Иван</h3>
+                  <span class="reviews-slider__date">11 Марта 2017</span>
                   <div class="reviews-slider__rating">
                     <img class="reviews__stars" src="img/block-10/star.svg" alt="star">
                     <img class="reviews__stars" src="img/block-10/star.svg" alt="star">
@@ -666,13 +681,13 @@
           <span class="footer-if__title">Задать вопрос:</span>
           <div class="footer-if__messenger">
             <div class="footer-if__whatsapp">
-              <a href="#" class="footer-if__link footer-if__link-whatsapp">
+              <a href="https://wa.me/89139039199" target="_blank" class="footer-if__link footer-if__link-whatsapp">
                 <img src="img/block-8/iconWhatsapp.svg" alt="" class="footer-if__img-whatsapp">
                 Whatsapp
               </a>
             </div>
             <div class="footer-if__telegram">
-              <a href="#" class="footer-if__link footer-if__link-telegram">
+              <a href="https://t.me/JS_Yaroslav" class="footer-if__link footer-if__link-telegram" target="_blank">
                 <img src="img/block-8/iconTelegram.svg" alt="" class="footer-if__img-telegram">
                 Telegram
               </a>

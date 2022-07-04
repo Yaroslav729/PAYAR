@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc9d5e9d-64c9-47cb-9e88-d617cca61753" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sass/block/_formModal.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/form.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/block-10/reviews-avatar-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/block-10/reviews-avatar-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/block-10/reviews-avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ajax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/send.php" beforeDir="false" afterPath="$PROJECT_DIR$/send.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +30,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bin/php/php7.4.0/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -46,6 +53,12 @@
       <updated>1646316498954</updated>
       <workItem from="1646316500109" duration="197000" />
       <workItem from="1649616504558" duration="113000" />
+      <workItem from="1655115229171" duration="4148000" />
+      <workItem from="1656415104174" duration="682000" />
+      <workItem from="1656573099126" duration="1556000" />
+      <workItem from="1656617540399" duration="28000" />
+      <workItem from="1656666493739" duration="38000" />
+      <workItem from="1656954452215" duration="4543000" />
     </task>
     <servers />
   </component>
@@ -53,17 +66,9 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="43" y="174" key="#CLI_Interpreters" timestamp="1646316648158">
+    <state x="305" y="278" key="FileChooserDialogImpl" timestamp="1656666529630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="43" y="174" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1646316648158" />
-    <state x="170" y="162" key="#PHP" timestamp="1646316656022">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="170" y="162" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1646316656022" />
-    <state x="243" y="274" key="FileChooserDialogImpl" timestamp="1649616612938">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="243" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1649616612938" />
+    <state x="305" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1656666529630" />
   </component>
 </project>
